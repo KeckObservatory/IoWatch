@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>IoWatch | Blend4Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="b4w.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+    // $( function() {
+    //     $( "#datepicker" ).datepicker({
+    //         dateFormat: "yy-mm-dd"
+    //     });
+    // } );
+</script>
+
+<link href="layout.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body background="blend/stars.jpg">
+
+    <div id="sidebar" class="sidenav">
+        <!-- <a href="javascript:void(0)" class="showSidebar closebtn" >&times;</a> -->
+        <div class="imgdata">
+            <div id="BrAd" class="datcontainer">
+                <p id="BrAp">Br Alpha</p>
+                <img id="BrA" class="dat">
+            </div>
+            <div id="BrAcd" class="datcontainer">
+                <p id="BrAcp">Br Alpha cont</p>
+                <img id="BrAc" class="dat">
+            </div>
+            <div id="h2od" class="datcontainer">
+                <p id="h2op">h2o</p>
+                <img id="h2o" class="dat">
+            </div>
+            <div id="Kcd" class="datcontainer">
+                <p id="Kcp">Kcont</p>
+                <img id="Kc" class="dat">
+            </div>
+            <div id="Lpd" class="datcontainer">
+                <p id="Lpp">Lp</p>
+                <img id="Lp" class="dat">
+            </div>
+            <div id="Msd" class="datcontainer">
+                <p id="Msp">Ms</p>
+                <img id="Ms" class="dat">
+            </div>
+            <div id="PAHd" class="datcontainer">
+                <p id="PAHp">PAH</p>
+                <img id="PAH" class="dat">
+            </div>
+        </div>
+    </div>
+    
+    <div id="canvas_cont" oncontextmenu="return false"></div>
+
+    <div style="position:absolute; left:50%"><div id="name">
+        <p>
+            <img src="keck-logo-small.png" class="logo"> Keck IoWatch <img src="keck-logo-small.png" class="logo">
+        </p>
+    </div></div>
+
+    <div id="interface">
+        <div class="container">
+            <a class="text" id="mapType" >View Infrared Maps</a>
+        </div>
+        <div class="container">
+            <a class="text" id="pickDate" >Date: <input type="text" id="datepicker"></a>
+        </div>
+        <div class="container">
+            <a class="text togbtn showSidebar" id="showSidebar" >Show Details</a>
+        </div>
+        <div class="container">
+            <a class="text" id="togShell">Show Shell</a>
+        </div>
+        <div class="container">
+            <a class="text" id="labelMode">Hide Labels</a>
+        </div>
+    </div>
+
+    <div id="rsidebar" class="sidenav">
+        <div id="objdata">
+            <p>
+                <a href="" id="objectLink" target="_blank">Object Selected:<br></a>
+            </p>
+            <p id="objinfo"></p>
+            <a id="reference" href="https://planetarynames.wr.usgs.gov/SearchResults?target=IO" target="_blank">Data gathered from planetarynames.wr.usgs.gov</a>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="io-map-scripts.js" ></script>
+
+</body>
+</html>

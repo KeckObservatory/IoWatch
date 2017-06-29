@@ -99,13 +99,32 @@ b4w.register("io_map", function(exports, require) {
     }
 
     $(".showSidebar").click(function() {
-        if ($("#rsidebar").outerWidth() != 250) {
-            showRSidebar();
-        }
-        else {
-            hideRSidebar();
+        if (active != ""){
+            if ($("#rsidebar").outerWidth() != 250) {
+                showRSidebar();
+            }
+            else {
+                hideRSidebar();
+            }
         }
     });
+
+    // $("#showSidebar").click(function() {
+    //     if (active != ""){
+    //         if ($("#rsidebar").outerWidth() != 250) {
+    //             showRSidebar();
+    //         }
+    //         else {
+    //             hideRSidebar();
+    //         }
+    //     }
+    //     else {
+    //         alert("No feature selected!");
+    //     }
+    // });
+    /*<div class="container">
+        <a class="text togbtn showSidebar" id="showSidebar" >Show Details</a>
+    </div>*/
 
     $("#labelMode").click(function() {
         if (labels) {

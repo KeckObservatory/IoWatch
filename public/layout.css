@@ -151,11 +151,14 @@ td.highlight {
 .sidenav .closebtn {
     position: relative;
     top: 0;
-    float:right;
-    right: 25px;
+    float:left;
+    left: 25px;
     font-size: 36px;
-    margin-left: 100%;
+    /*margin-left: 100%;*/
+}
 
+#close {
+    margin-bottom: 100px;
 }
 
 #reference {

@@ -66,7 +66,7 @@ io.sockets.on('connection', function (socket) {
 			    }
 		    })
 
-		    console.log(dates)
+		    // console.log(dates)
 		    socket.emit("dates", Array.from(dates));
 
 		});
@@ -84,12 +84,11 @@ io.sockets.on('connection', function (socket) {
 		}
 		var year = date[0]
 
-		// var filters = ['bra','brac','h2o','kc','lp','ms','PAH'];
 		var filepaths = [];
 		regex = /\_(?:BrA|BrAc|h2o|Kc|Lp|Ms|PAH)\_(\d\d)(\d\d)UT\./;
 		// console.log(regex);
 		var dir = PATH_TO_DATA_MAP+year+month+day+"/";
-		console.log(dir);
+		// console.log(dir);
 
 		// TO DO: folder name of date
 		fs.readdir(dir, (err, files) => {
@@ -108,29 +107,25 @@ io.sockets.on('connection', function (socket) {
 		        // }
 		    })
 
-			/*
-            Methods for querying the JPL Horizons database. 
-
-            Instructions for keyowrds and options available here:
-            ftp://ssd.jpl.nasa.gov/pub/ssd/horizons_batch_example.long
-
-            Adapted from: 
-            v0: M. Adamkovics
-            v1: K. de Kleer
-
-		    input name of taret as string, e.g. 'Io', and date in the format:
-		    '\'YYYY-MM-DD HH:MM\''
-		    For example: data=get_ephem.get_ephemerides('Io','\'2017-06-09 08:24\'')
-		    Returns a list containing (in string format):
-		    UTdate,UTtime,sun,moon,RA (J2000),DEC (J2000),Airmass,Extinction,Ang-Diam("),Ob-lon,Ob-lat,NP.ang,NP.dist
-		    */
-
 
 		    try {
 
+		    	/*
+	            Methods for querying the JPL Horizons database. 
 
+	            Instructions for keyowrds and options available here:
+	            ftp://ssd.jpl.nasa.gov/pub/ssd/horizons_batch_example.long
 
-		    	// console.log(filepaths);
+	            Adapted from: 
+	            v0: M. Adamkovics
+	            v1: K. de Kleer
+
+			    input name of taret as string, e.g. 'Io', and date in the format:
+			    '\'YYYY-MM-DD HH:MM\''
+			    For example: data=get_ephem.get_ephemerides('Io','\'2017-06-09 08:24\'')
+			    Returns a list containing (in string format):
+			    UTdate,UTtime,sun,moon,RA (J2000),DEC (J2000),Airmass,Extinction,Ang-Diam("),Ob-lon,Ob-lat,NP.ang,NP.dist
+			    */
 
 			    var code = {'Mercury':'199', 'Venus':'299', 'Earth':'399', 'Mars':'499',
 			        'Jupiter':'599', 'Io':'501', 'Europa':'502', 'Ganymede':'503', 
@@ -141,29 +136,6 @@ io.sockets.on('connection', function (socket) {
 				var t = filepaths[0].match(/.+_(\d\d)(\d\d)/);
 
 				month = (['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'].indexOf(month)+1);
-				
-				// console.log(parseInt(year), month, parseInt(day),parseInt(t[1]), parseInt(t[2]));
-				// var D = new Date(parseInt(year), month, parseInt(day));
-				// D.setUTCHours(parseInt(t[1]), parseInt(t[2]) );
-				// var DD = new Date(D);
-				// DD.setDate(DD.getDate()+1);
-
-				// var Min = D.getUTCMinutes().toString();
-				// if (Min.length == 1){ Min = "0"+Min; }
-				// var Hour = D.getUTCHours().toString();
-				// if (Hour.length == 1){ Hour = "0"+Hour; }
-
-				// var tstart_UT = ["'",D.getFullYear().toString(),"-",
-				// 			(D.getMonth()+1).toString(),"-",
-				// 			D.getDate().toString()," ",
-				// 			Hour,":",Min,"'"].join("");
-
-				// var tend_UT = ["'",DD.getFullYear().toString(),"-",
-				// 			(DD.getMonth()+1).toString(),"-",
-				// 			DD.getDate().toString()," ",
-				// 			Hour,":",Min,"'"].join("");
-
-				// console.log(tstart_UT);
 
 				var Min = t[2];
 				if (Min.length == 1){ Min = "0"+Min; }
@@ -220,7 +192,7 @@ io.sockets.on('connection', function (socket) {
 							 files: filepaths,
 							 location: results};
 
-							console.log(data);
+							// console.log(data);
 							io.emit('data',data);
 						}
 						catch (err) {

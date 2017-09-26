@@ -1,46 +1,51 @@
 var http = require("http");
-
+var fs = require('fs');
+var request = require('request');
 var express = require("express");
 var app = express();
 // var router = express.Router();
-var serv = http.Server(app);
+// var serv = http.Server(app);
+const port = process.env.PORT || 3000
+
+const serv = express()
+  .use(express.static('public'))
+  .get('/', (req,res) => res.sendFile(__dirname+'/public/io-map.html') )
+  .listen(port, () => console.log('Server started on '+port+'!'));
+
 var io = require('socket.io')(serv);
 
-var fs = require('fs');
-var request = require('request');
+// file.readFile === fs.readFile // true
 
-// file.readFile === fs.readFile // true 
-
-const PORT=3000;
+// const PORT=3000;
 const PATH_TO_DATA_MAP = "public/blend/data/export/";
 
-serv.listen(PORT, function(){
-    console.log("Server started at Port "+PORT.toString());
-});
+// serv.listen(PORT, function(){
+//     console.log("Server started at Port "+PORT.toString());
+// });
 
-app.get('/',function(req,res){
-  res.sendFile(__dirname+'/public/io-map.html');
-  //__dirname : It will resolve to your project folder.
-});
-app.use(express.static('public'));
+// app.get('/',function(req,res){
+//   res.sendFile(__dirname+'/public/io-map.html');
+//   //__dirname : It will resolve to your project folder.
+// });
+// app.use(express.static('public'));
 
 
 // io as in an interface... not the moon... hahaha this nomenclature is killing me
 io.sockets.on('connection', function (socket) {
 	console.log("Client connected");
 	socket.emit('connect');
-	
+
 	socket.on('disconnect', function () {
 	  	console.log('Client disconnect');
 	});
 
-	socket.on('dates', function(){ 
+	socket.on('dates', function(){
 		// console.log('dates');
 
 		fs.readdir(PATH_TO_DATA_MAP, (err, files) => {
 			// console.log(files);
 			var dates = new Set();
-		    files.forEach(file => { 
+		    files.forEach(file => {
 		    	try {
 	    			var t = file.toString().match(/(\d+)(\D+)(\d+)/);
 	    			// console.log(t)
@@ -58,7 +63,7 @@ io.sockets.on('connection', function (socket) {
 						var year = t[1];
 		    			dates.add(month+"-"+day+"-"+year);
 		    		}
- 
+
 			    }
 
 			    catch(err) {
@@ -94,7 +99,7 @@ io.sockets.on('connection', function (socket) {
 		fs.readdir(dir, (err, files) => {
 			// console.log(files);
 
-		    files.forEach(F => { 
+		    files.forEach(F => {
 		    	var file = F.toString();
 		    	var fml = file.match(regex);
 		    	// console.log("iterating", fml);
@@ -111,12 +116,12 @@ io.sockets.on('connection', function (socket) {
 		    try {
 
 		    	/*
-	            Methods for querying the JPL Horizons database. 
+	            Methods for querying the JPL Horizons database.
 
 	            Instructions for keyowrds and options available here:
 	            ftp://ssd.jpl.nasa.gov/pub/ssd/horizons_batch_example.long
 
-	            Adapted from: 
+	            Adapted from:
 	            v0: M. Adamkovics
 	            v1: K. de Kleer
 
@@ -128,7 +133,7 @@ io.sockets.on('connection', function (socket) {
 			    */
 
 			    var code = {'Mercury':'199', 'Venus':'299', 'Earth':'399', 'Mars':'499',
-			        'Jupiter':'599', 'Io':'501', 'Europa':'502', 'Ganymede':'503', 
+			        'Jupiter':'599', 'Io':'501', 'Europa':'502', 'Ganymede':'503',
 			        'Saturn':'699', 'Uranus':'799', 'Neptune':'899','Callisto':'504'};
 			    var target = "Io";
 
@@ -152,7 +157,7 @@ io.sockets.on('connection', function (socket) {
 				if (month == 2) { if (parseInt(year)%4 != 0) {DiM = 28;} else {DiM=29;} }
 				else if (month == 4 || month == 6 || month == 9 || month == 11) {DiM = 30;}
 				else /*if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)*/ {DiM = 31;}
-				
+
 				var Dt = day+1;
 				if (Dt > DiM) {
 					month += 1;
@@ -209,5 +214,5 @@ io.sockets.on('connection', function (socket) {
 		});
 
 	});
-	
+
 });

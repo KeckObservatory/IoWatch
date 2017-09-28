@@ -49,9 +49,9 @@ b4w.register("io_map", function(exports, require) {
         "Prometheus",
         "Culann Patera",
         "Kanehekili Fluctus",
-        "Babbar Patera", 
-        "Janus Patera", 
-        "Tvashtar Paterae", 
+        "Babbar Patera",
+        "Janus Patera",
+        "Tvashtar Paterae",
         "Uta Patera",
         "Zal Patera",
         "Tawhaki Patera",
@@ -145,7 +145,7 @@ b4w.register("io_map", function(exports, require) {
 
     function init_network(){
         console.log("init_network");
-          
+
         _socket.on('connect', function () {
             console.log("connected");
         });
@@ -160,15 +160,15 @@ b4w.register("io_map", function(exports, require) {
             // console.log(dates);
 
             $( "#datepicker" ).datepicker({
-                dateFormat: "yy-mm-dd", 
+                dateFormat: "yy-mm-dd",
                 beforeShowDay: function (d) {
-                    var dmy = (d.getMonth()+1); 
-                    if(d.getMonth()<9) 
-                        dmy="0"+dmy; 
-                    dmy+= "-"; 
+                    var dmy = (d.getMonth()+1);
+                    if(d.getMonth()<9)
+                        dmy="0"+dmy;
+                    dmy+= "-";
 
-                    if(d.getDate()<10) dmy+="0"; 
-                        dmy+=d.getDate() + "-" + d.getFullYear(); 
+                    if(d.getDate()<10) dmy+="0";
+                        dmy+=d.getDate() + "-" + d.getFullYear();
 
                     // console.log(dmy)
                     if (dates.includes(dmy)) {
@@ -188,7 +188,7 @@ b4w.register("io_map", function(exports, require) {
 
         });
 
-        
+
 
         _socket.on('data', function(dat)
         {
@@ -220,10 +220,12 @@ b4w.register("io_map", function(exports, require) {
                         xdata=true;
                     }
                 }
-                
+
                 catch(err) {
                     $(prefix+"d").hide();
-                    console.log(err);
+                    if (DEBUG) {
+                      console.log(err);
+                    }
                 }
 
             })
@@ -234,7 +236,9 @@ b4w.register("io_map", function(exports, require) {
                 ob_np_ang:parseFloat(dat.location[10])
             };
 
-            console.log(paths,values);//
+            if(DEBUG) {
+              console.log(paths,values);//
+            }
 
             m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
             m_transform.set_translation(_shell,0,0,0);
@@ -264,7 +268,7 @@ b4w.register("io_map", function(exports, require) {
                 }
                 else {
                     alert("No day selected!");
-                }    
+                }
             }
         });
 
@@ -317,7 +321,9 @@ b4w.register("io_map", function(exports, require) {
 
                     },
                     error: function(e) {
-                        console.log(e);
+                        if (DEBUG) {
+                          console.log(e);
+                        }
                         $("#objinfo").html("");
                     }
                 });
@@ -359,7 +365,7 @@ b4w.register("io_map", function(exports, require) {
     }
 
     // function move_anchor(anchorname, placement) {
-    //     /* this doesn't work - anchors become greyed out on moving, 
+    //     /* this doesn't work - anchors become greyed out on moving,
     //         as if behind an object. needs more research */
     //     var radlat = Math.PI*(placement[0])/180;
     //     var radlon = Math.PI*placement[1]/180;
@@ -400,7 +406,7 @@ b4w.register("io_map", function(exports, require) {
             $(this).css("-moz-box-shadow",shadow);
         });
         // console.log('moving volcanes!');
-        
+
     }
 
     function change_img_cb() {

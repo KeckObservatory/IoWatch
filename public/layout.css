@@ -108,6 +108,10 @@ td.highlight {
     left: 0;
 }
 
+.dattitle {
+  margin-bottom: 10%;
+}
+
 #rsidebar {
     top: 0;
     right: 0;

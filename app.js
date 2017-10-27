@@ -30,7 +30,7 @@ const PATH_TO_DATA_MAP = "public/blend/data/export/";
 // app.use(express.static('public'));
 
 
-// io as in an interface... not the moon... hahaha this nomenclature is killing me
+// io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {
 	console.log("Client connected");
 	socket.emit('connect');

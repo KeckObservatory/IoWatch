@@ -89,7 +89,7 @@ td.highlight {
     z-index: 5
 }
 
-#name p { 
+#name p {
     padding-bottom: 10px;
     text-decoration: none;
     text-align: center;
@@ -124,11 +124,11 @@ td.highlight {
     padding-top: 10px;
 }
 
-.sidenav a {
+.title {
     padding: 16px 8px 8px 8px;
     text-decoration: none;
-    text-align: center;
     font-size: 25px;
+    text-align: center;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -138,7 +138,7 @@ td.highlight {
     color: #f1f1f1;
 }
 
-.sidenav p {
+.sidenav .info {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
     text-align: left;
@@ -168,6 +168,15 @@ td.highlight {
 
 #objdata {
     display:none;
+}
+
+#research {
+  display: none;
+  margin: 0 5px;
+}
+
+.paper {
+  font-size: 12px;
 }
 
 .datcontainer {
@@ -211,6 +220,3 @@ td.highlight {
     opacity: 0.75;
     border-radius: 5px;
 }
-
-
-

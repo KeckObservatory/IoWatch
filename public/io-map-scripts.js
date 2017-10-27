@@ -35,7 +35,8 @@ b4w.register("io_map", function(exports, require) {
     var rotquat = [0,0,0,0];
 
     var heatmap = false;
-    var active = "";
+    var active = "placeholder";
+    var barinfo = false;
 
     // socket connection to active node server
     var _socket = io().connect();
@@ -98,14 +99,38 @@ b4w.register("io_map", function(exports, require) {
         active="";
     }
 
+    function togRSidebar() {
+        if ($("#rsidebar").outerWidth() != 250) {
+            showRSidebar();
+        }
+        else {
+            hideRSidebar();
+        }
+    }
+
     $(".showSidebar").click(function() {
-        if (active != ""){
-            if ($("#rsidebar").outerWidth() != 250) {
-                showRSidebar();
+        if (active != "" || barinfo){
+            togRSidebar();
+        }
+    });
+
+    $("#togResearch").click(function() {
+        if (!barinfo){
+            $("#objdata").hide();
+            $("#research").show();
+
+            if (active != "") {
+              showRSidebar();
             }
             else {
-                hideRSidebar();
+              togRSidebar();
             }
+            active = "";
+            barinfo = true;
+        }
+        else {
+            togRSidebar();
+            barinfo = false;
         }
     });
 
@@ -210,7 +235,7 @@ b4w.register("io_map", function(exports, require) {
                     if (!xdata) {
                         m_tex.change_image(_shell, "datamap", $(prefix).attr("src"), change_img_cb);
 
-                        deselect();
+                        // deselect();
 
                         var shadow = "0px 0px 25px rgba(255,255,255,1)";
                         $(prefix).css("-webkit-box-shadow",shadow);
@@ -251,7 +276,7 @@ b4w.register("io_map", function(exports, require) {
 
         $("#togShell").click(function() {
             if (shell_active) {
-                m_transform.set_translation(_shell,473,0,0);
+                m_transform.set_translation(_shell,421,0,0);
                 hideSidebar();
                 $(this).text("Show Shell");
                 shell_active = false;
@@ -286,6 +311,8 @@ b4w.register("io_map", function(exports, require) {
                 var wikiname = "List_of_volcanic_features_on_Io";
 
                 $("#objectLink").html("Object Selected:<br>"+volname);
+                $("#research").hide();
+                barinfo = false;
                 $("#objdata").show();
 
                 if(volname.split(" ")[1] == "Patera") {
@@ -389,7 +416,7 @@ b4w.register("io_map", function(exports, require) {
         // _sky = m_scenes.get_object_by_name("Sphere");
         $("#mapType").click(main_maptype_clicked_cb);
         m_tex.change_image(_moon, "map", PATH_TO_COLOR_MAP, change_img_cb);
-        m_transform.set_translation(_shell,473,0,0);
+        m_transform.set_translation(_shell,421,0,0);
         // m_tex.change_image(_shell, "datamap", PATH_TO_DEFAULT_MAP_SHELL, change_img_cb);
         // m_tex.change_image(_sky, "Texture", APP_ASSETS_PATH+"TychoSkymapII_t3.jpg", change_img_cb);
         m_tex.change_image(_jupiter, "jupiter", APP_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);

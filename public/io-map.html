@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    
+
     <div id="canvas_cont" oncontextmenu="return false"></div>
 
     <div style="position:absolute; left:50%"><div id="name">
@@ -82,19 +82,32 @@
         <div class="container">
             <a class="text" id="labelMode">Hide Labels</a>
         </div>
+        <div class="container">
+            <a class="text" id="togResearch">Show Scientific Papers</a>
+        </div>
     </div>
 
     <div id="rsidebar" class="sidenav">
         <div id="close">
-            <a href="javascript:void(0)" class="showSidebar closebtn" >&times;</a>
+            <a href="javascript:void(0)" class="showSidebar closebtn title" >&times;</a>
         </div>
         <div id="objdata">
             <p>
-                <a href="" id="objectLink" target="_blank">Object Selected:<br></a>
+                <a class="title" href="" id="objectLink" target="_blank">Object Selected:<br></a>
             </p>
-            <p id="objinfo"></p>
-            <a id="reference" href="https://planetarynames.wr.usgs.gov/SearchResults?target=IO" target="_blank">Data gathered from planetarynames.wr.usgs.gov</a>
+            <p id="objinfo" class="info"></p>
+            <a id="reference" class="title" href="https://planetarynames.wr.usgs.gov/SearchResults?target=IO" target="_blank">Data gathered from planetarynames.wr.usgs.gov</a>
 
+        </div>
+        <div id="research">
+            <a class="title">Research Papers Using This Data</a>
+            <p id="papers">
+              <a class="info" href="http://adsabs.harvard.edu/abs/2016Icar..280..378D">Time variability of Io's volcanic activity from near-IR adaptive optics observations on 100 nights in 2013-2015: 	de Kleer, Katherine; de Pater, Imke</a>
+              <a class="info" href="http://adsabs.harvard.edu/abs/2016Icar..280..405D">Spatial distribution of Io's volcanic activity from near-IR adaptive optics observations on 100 nights in 2013-2015: 	de Kleer, Katherine; de Pater, Imke</a>
+              <a class="info" href="http://adsabs.harvard.edu/abs/2017Icar..297..265D">Three decades of Loki Patera observations:  de Pater, Imke; de Kleer, Katherine; Davies, Ashley G.; Ádámkovics, Máté</a>
+              <a class="info" href="http://adsabs.harvard.edu/abs/2017Icar..289..181D">Io's Loki Patera: Modeling of three brightening events in 2013-2016:  de Kleer, Katherine; de Pater, Imke</a>
+
+            </p>
         </div>
     </div>
 

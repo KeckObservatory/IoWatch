@@ -127,10 +127,13 @@ b4w.register("io_map", function(exports, require) {
             }
             active = "";
             barinfo = true;
+            $("#togResearch").html("Hide Scientific Papers");
         }
         else {
             togRSidebar();
             barinfo = false;
+            $("#togResearch").html("Show Scientific Papers");
+
         }
     });
 
@@ -313,6 +316,8 @@ b4w.register("io_map", function(exports, require) {
                 $("#objectLink").html("Object Selected:<br>"+volname);
                 $("#research").hide();
                 barinfo = false;
+                $("#togResearch").html("Show Scientific Papers");
+
                 $("#objdata").show();
 
                 if(volname.split(" ")[1] == "Patera") {

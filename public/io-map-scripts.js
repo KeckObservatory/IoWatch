@@ -189,6 +189,8 @@ b4w.register("io_map", function(exports, require) {
 
             $( "#datepicker" ).datepicker({
                 dateFormat: "yy-mm-dd",
+                changeYear: true,
+                changeMonth: true,
                 beforeShowDay: function (d) {
                     var dmy = (d.getMonth()+1);
                     if(d.getMonth()<9)

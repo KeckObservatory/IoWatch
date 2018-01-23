@@ -5,8 +5,8 @@ const port = process.env.PORT || 3000
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-  .use(express.static('public'))
-  .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
+  .use(express.static('./'))
+  .get('/', (req,res) => res.sendFile(__dirname+'/io-map.html') )
   .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);

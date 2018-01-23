@@ -5,22 +5,13 @@ const port = process.env.PORT || 3000
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-<<<<<<< HEAD:expressapp.js
   .use(express.static('public'))
   .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
-=======
-  .use(express.static('./'))
-  .get('/', (req,res) => res.sendFile(__dirname+'/io-map.html') )
->>>>>>> twilight-zone:app.js
   .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-<<<<<<< HEAD:expressapp.js
-const PATH_TO_DATA_MAP = "IoMap/blend/data/export/";
-=======
 const PATH_TO_DATA_MAP = './reduced/Io/';
->>>>>>> twilight-zone:app.js
 
 // io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {

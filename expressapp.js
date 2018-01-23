@@ -6,12 +6,12 @@ const port = process.env.PORT || 3000
 var express = require("express");
 const serv = express()
   .use(express.static('public'))
-  .get('/', (req,res) => res.sendFile(__dirname+'/public/io-map.html') )
+  .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
   .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-const PATH_TO_DATA_MAP = "public/blend/data/export/";
+const PATH_TO_DATA_MAP = "IoMap/blend/data/export/";
 
 // io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {

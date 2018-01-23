@@ -15,9 +15,10 @@ b4w.register("io_map", function(exports, require) {
 
     var DEBUG = (m_version.type() === "DEBUG");
 
-    const APP_ASSETS_PATH = "blend/";
-    const PATH_TO_DEFAULT_MAP = APP_ASSETS_PATH + "mband.jpg";
-    const PATH_TO_COLOR_MAP = APP_ASSETS_PATH + "map-color.jpg";
+    const STATIC_ASSETS_PATH = "blend/";
+    const PATH_TO_DEFAULT_MAP = STATIC_ASSETS_PATH + "mband.jpg";
+    const PATH_TO_COLOR_MAP = STATIC_ASSETS_PATH + "map-color.jpg";
+    const APP_ASSETS_PATH = "reduced/Io/"
     // const PATH_TO_DATA_MAP = APP_ASSETS_PATH + "data/export/";
     // const PATH_TO_DEFAULT_MAP_SHELL = PATH_TO_DATA_MAP + "2017feb05/Io_Ms_1616.png"
 
@@ -167,7 +168,7 @@ b4w.register("io_map", function(exports, require) {
             generate_anchor(volcano);
         }
 
-        m_data.load(APP_ASSETS_PATH+"io_model.json", load_cb);
+        m_data.load(STATIC_ASSETS_PATH+"io_model.json", load_cb);
     }
 
 
@@ -426,7 +427,7 @@ b4w.register("io_map", function(exports, require) {
         m_transform.set_translation(_shell,421,0,0);
         // m_tex.change_image(_shell, "datamap", PATH_TO_DEFAULT_MAP_SHELL, change_img_cb);
         // m_tex.change_image(_sky, "Texture", APP_ASSETS_PATH+"TychoSkymapII_t3.jpg", change_img_cb);
-        m_tex.change_image(_jupiter, "jupiter", APP_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);
+        m_tex.change_image(_jupiter, "jupiter", STATIC_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);
 
 
         $(".dat").click(function(){

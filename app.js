@@ -5,13 +5,13 @@ const port = process.env.PORT || 3000
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-  .use(express.static('IoMap'))
+  .use(express.static('./IoMap'))
   .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
   .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-const PATH_TO_DATA_MAP = "reduced/Io";
+const PATH_TO_DATA_MAP = './reduced/Io/';
 
 // io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {
@@ -76,7 +76,7 @@ io.sockets.on('connection', function (socket) {
 		regex = /\_(?:BrA|BrAc|h2o|Kc|Lp|Ms|PAH)\_(\d\d)(\d\d)UT\./;
 		// console.log(regex);
 		var dir = PATH_TO_DATA_MAP+year+month+day+"/";
-		// console.log(dir);
+		console.log(dir);
 
 		// TO DO: folder name of date
 		fs.readdir(dir, (err, files) => {
@@ -87,7 +87,7 @@ io.sockets.on('connection', function (socket) {
 		    	var fml = file.match(regex);
 		    	// console.log("iterating", fml);
 		        if (fml != null) {
-		            // console.log(file);
+		            console.log(file);
 		            filepaths.push(file);
 		        }
 		        // else {
@@ -176,7 +176,7 @@ io.sockets.on('connection', function (socket) {
 							// console.log(ephem);
 							var results = (ephem.match(/\$\$SOE\n\s(.*)\,\n/)[1]).split(',');
 
-							var data = {directory: dir.slice(7),
+							var data = {directory: dir,
 							 files: filepaths,
 							 location: results};
 

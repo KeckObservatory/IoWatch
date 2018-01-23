@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>IoWatch | Blend4Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="b4w.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+    // $( function() {
+    //     $( "#datepicker" ).datepicker({
+    //         dateFormat: "yy-mm-dd"
+    //     });
+    // } );
+</script>
+
+<link href="io-map-layout.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body background="blend/stars.jpg">
+
+    <div id="sidebar" class="sidenav">
+        <!-- <a href="javascript:void(0)" class="showSidebar closebtn" >&times;</a> -->
+        <div class="imgdata">
+            <div class="dattitle">
+              <p class="title">Images gathered by by Imke de Pater and Katherine de Kleer.</p>
+            </div>
+            <div id="BrAd" class="datcontainer">
+                <p id="BrAp" class="info">Br Alpha</p>
+                <img id="BrA" class="dat">
+            </div>
+            <div id="BrAcd" class="datcontainer">
+                <p id="BrAcp" class="info">Br Alpha cont</p>
+                <img id="BrAc" class="dat">
+            </div>
+            <div id="h2od" class="datcontainer">
+                <p id="h2op" class="info">h2o</p>
+                <img id="h2o" class="dat">
+            </div>
+            <div id="Kcd" class="datcontainer">
+                <p id="Kcp" class="info">Kcont</p>
+                <img id="Kc" class="dat">
+            </div>
+            <div id="Lpd" class="datcontainer">
+                <p id="Lpp" class="info">Lp</p>
+                <img id="Lp" class="dat">
+            </div>
+            <div id="Msd" class="datcontainer">
+                <p id="Msp" class="info">Ms</p>
+                <img id="Ms" class="dat">
+            </div>
+            <div id="PAHd" class="datcontainer">
+                <p id="PAHp" class="info">PAH</p>
+                <img id="PAH" class="dat">
+            </div>
+        </div>
+    </div>
+
+    <div id="canvas_cont" oncontextmenu="return false"></div>
+
+    <div style="position:absolute; left:50%" class="title">
+      <div id="name">
+        <p>
+            <img src="keck-logo-small.png" class="logo"> Keck IoWatch <img src="keck-logo-small.png" class="logo">
+        </p>
+      </div>
+      <div id="subtitle">
+        <p>
+          Data Now Available 2013-2015
+        </p>
+      </div>
+    </div>
+
+    <div id="interface">
+        <div class="container">
+            <a class="text" id="mapType" >View Infrared Maps</a>
+        </div>
+        <div class="container">
+            <a class="text" id="pickDate" >Date: <input type="text" id="datepicker"></a>
+        </div>
+        <div class="container">
+            <a class="text" id="togShell">Show Shell</a>
+        </div>
+        <div class="container">
+            <a class="text" id="labelMode">Hide Labels</a>
+        </div>
+        <div class="container">
+            <a class="text" id="togResearch">Show Scientific Papers</a>
+        </div>
+    </div>
+
+    <div id="rsidebar" class="sidenav">
+        <div id="close">
+            <a href="javascript:void(0)" class="showSidebar closebtn title" >&times;</a>
+        </div>
+        <div id="objdata">
+            <p>
+                <a class="title" href="" id="objectLink" target="_blank">Object Selected:<br></a>
+            </p>
+            <p id="objinfo" class="info"></p>
+            <a id="reference" class="title" href="https://planetarynames.wr.usgs.gov/SearchResults?target=IO" target="_blank">Data gathered from planetarynames.wr.usgs.gov</a>
+
+        </div>
+        <div id="research">
+            <a class="title">Research Papers Using This Data</a>
+            <p id="papers">
+              <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2016Icar..280..378D">Time variability of Io's volcanic activity from near-IR adaptive optics observations on 100 nights in 2013-2015: 	de Kleer, Katherine; de Pater, Imke</a>
+              <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2016Icar..280..405D">Spatial distribution of Io's volcanic activity from near-IR adaptive optics observations on 100 nights in 2013-2015: 	de Kleer, Katherine; de Pater, Imke</a>
+              <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2017Icar..297..265D">Three decades of Loki Patera observations:  de Pater, Imke; de Kleer, Katherine; Davies, Ashley G.; Ádámkovics, Máté</a>
+              <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2017Icar..289..181D">Io's Loki Patera: Modeling of three brightening events in 2013-2016:  de Kleer, Katherine; de Pater, Imke</a>
+
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="io-map-scripts.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults>
+<feature>
+<name>Ababinili Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>103.63</diameter>
+<centerlatitude>12.78</centerlatitude>
+<centerlongitude>142.17</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Chickasaw fire and sun god.</origin>
+</feature>
+<feature>
+<name>Acala Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>415.32</diameter>
+<centerlatitude>9.03</centerlatitude>
+<centerlongitude>334.6</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Japanese fire god.</origin>
+</feature>
+<feature>
+<name>Agni Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>19.7</diameter>
+<centerlatitude>-40.78</centerlatitude>
+<centerlongitude>333.09</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Hindu god of fire.</origin>
+</feature>
+<feature>
+<name>Ah Peku Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>84.91</diameter>
+<centerlatitude>10.36</centerlatitude>
+<centerlongitude>106.98</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Mayan thunder god.</origin>
+</feature>
+<feature>
+<name>Aidne Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>29.8</diameter>
+<centerlatitude>-1.76</centerlatitude>
+<centerlongitude>177.11</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Irish creator of fire.</origin>
+</feature>
+<feature>
+<name>Altjirra Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>60.27</diameter>
+<centerlatitude>-34.4</centerlatitude>
+<centerlongitude>108.82</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Australian sky god whose voice is thunder.</origin>
+</feature>
+<feature>
+<name>Amaterasu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.27</diameter>
+<centerlatitude>38.21</centerlatitude>
+<centerlongitude>306.55</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Japanese sun goddess.</origin>
+</feature>
+<feature>
+<name>Amirani</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>415.23</diameter>
+<centerlatitude>25.02</centerlatitude>
+<centerlongitude>115.18</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Georgian god of fire.</origin>
+</feature>
+<feature>
+<name>Angpetu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>18.5</diameter>
+<centerlatitude>-21.18</centerlatitude>
+<centerlongitude>8.85</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Dakota name meaning the sun.</origin>
+</feature>
+<feature>
+<name>Apis Tholus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>199.16</diameter>
+<centerlatitude>-11.92</centerlatitude>
+<centerlongitude>347.7</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; name for Epaphus, son of Io and Zeus.</origin>
+</feature>
+<feature>
+<name>Aramazd Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>69.33</diameter>
+<centerlatitude>-73.57</centerlatitude>
+<centerlongitude>336.61</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Armenian thunder god.</origin>
+</feature>
+<feature>
+<name>Argos Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>170.7</diameter>
+<centerlatitude>-47.9</centerlatitude>
+<centerlongitude>317.81</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io was captured by Zeus.</origin>
+</feature>
+<feature>
+<name>Arinna Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>121.66</diameter>
+<centerlatitude>31.63</centerlatitude>
+<centerlongitude>149.19</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Hittite sun goddess.</origin>
+</feature>
+<feature>
+<name>Arusha Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>69.51</diameter>
+<centerlatitude>-38.99</centerlatitude>
+<centerlongitude>101.49</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Hindu god of the rising sun.</origin>
+</feature>
+<feature>
+<name>Asha Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>117.97</diameter>
+<centerlatitude>-8.84</centerlatitude>
+<centerlongitude>225.58</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Persian spirit of fire.</origin>
+</feature>
+<feature>
+<name>Ātar Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>80.01</diameter>
+<centerlatitude>30.87</centerlatitude>
+<centerlongitude>278.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Iranian personification of fire.</origin>
+</feature>
+<feature>
+<name>Aten Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>48.84</diameter>
+<centerlatitude>-48.45</centerlatitude>
+<centerlongitude>309.97</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Egyptian sun god.</origin>
+</feature>
+<feature>
+<name>Babbar Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>110.34</diameter>
+<centerlatitude>-39.81</centerlatitude>
+<centerlongitude>271.59</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Sumerian; sun god.</origin>
+</feature>
+<feature>
+<name>Bactria Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>663.1</diameter>
+<centerlatitude>-48.25</centerlatitude>
+<centerlongitude>123.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>
+Io passed through this area of ancient Iran in her wanderings.
+</origin>
+</feature>
+<feature>
+<name>Balder Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>36.95</diameter>
+<centerlatitude>11.46</centerlatitude>
+<centerlongitude>156.16</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Norse god of light.</origin>
+</feature>
+<feature>
+<name>Belenus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>22.13</diameter>
+<centerlatitude>2.93</centerlatitude>
+<centerlongitude>157.73</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Celtic fire and sun god.</origin>
+</feature>
+<feature>
+<name>Bochica Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>54.14</diameter>
+<centerlatitude>-61.5</centerlatitude>
+<centerlongitude>18.88</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Chibcha sky god.</origin>
+</feature>
+<feature>
+<name>Boösaule Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>540</diameter>
+<centerlatitude>-3.75</centerlatitude>
+<centerlongitude>269.11</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Cave where Io bore Epaphus.</origin>
+</feature>
+<feature>
+<name>Bosphorus Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>1607.21</diameter>
+<centerlatitude>-2.3</centerlatitude>
+<centerlongitude>120.57</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>
+"Ford of the Cow"; Io wandered through here while trying to escape from the gadfly.
+</origin>
+</feature>
+<feature>
+<name>Bulicame Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>514.24</diameter>
+<centerlatitude>34.79</centerlatitude>
+<centerlongitude>189.94</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>
+Hot sulfur spring, the water of which sinful women were permitted to use in "The Inferno."
+</origin>
+</feature>
+<feature>
+<name>Camaxtli Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>55.99</diameter>
+<centerlatitude>15.28</centerlatitude>
+<centerlongitude>136.8</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Aztec thunder, tornado, and war god.</origin>
+</feature>
+<feature>
+<name>Capaneus Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>288.08</diameter>
+<centerlatitude>-16.82</centerlatitude>
+<centerlongitude>121.4</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>The great blasphemer in Dante's "The Inferno."</origin>
+</feature>
+<feature>
+<name>Carancho Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>30.61</diameter>
+<centerlatitude>1.52</centerlatitude>
+<centerlongitude>317.28</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Bolivian legendary hero who received fire from an owl.
+</origin>
+</feature>
+<feature>
+<name>Cataquil Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>117.66</diameter>
+<centerlatitude>-24.21</centerlatitude>
+<centerlongitude>16.66</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Inca god of thunder and lightning.</origin>
+</feature>
+<feature>
+<name>Catha Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>65.71</diameter>
+<centerlatitude>-53.72</centerlatitude>
+<centerlongitude>101.58</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Etruscan sun god.</origin>
+</feature>
+<feature>
+<name>Caucasus Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>146.6</diameter>
+<centerlatitude>-31.95</centerlatitude>
+<centerlongitude>238.48</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>
+Io passed by these mountains while trying to escape from the gadfly.
+</origin>
+</feature>
+<feature>
+<name>Chaac Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.55</diameter>
+<centerlatitude>11.96</centerlatitude>
+<centerlongitude>157.44</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Mayan thunder and rain god.</origin>
+</feature>
+<feature>
+<name>Chalybes Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>760.29</diameter>
+<centerlatitude>56.88</centerlatitude>
+<centerlongitude>84.67</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; Io passed through here in her wanderings.</origin>
+</feature>
+<feature>
+<name>Chors Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>68.92</diameter>
+<centerlatitude>68.42</centerlatitude>
+<centerlongitude>249.91</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Slavic sun god.</origin>
+</feature>
+<feature>
+<name>Colchis Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>2860</diameter>
+<centerlatitude>2.47</centerlatitude>
+<centerlongitude>208.42</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>
+Greek; Io passed through this part of Asia Minor in her wanderings.
+</origin>
+</feature>
+<feature>
+<name>Creidne Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>168.66</diameter>
+<centerlatitude>-53.31</centerlatitude>
+<centerlongitude>342.55</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Celtic smith god.</origin>
+</feature>
+<feature>
+<name>Crimea Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>138.56</diameter>
+<centerlatitude>-75.4</centerlatitude>
+<centerlongitude>243.35</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Cuchi Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>74.14</diameter>
+<centerlatitude>-0.83</centerlatitude>
+<centerlongitude>144.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Australian snake demon whose growl is thunder.</origin>
+</feature>
+<feature>
+<name>Culann Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>28.85</diameter>
+<centerlatitude>-19.88</centerlatitude>
+<centerlongitude>160.11</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Celtic smith god.</origin>
+</feature>
+<feature>
+<name>Daedalus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>74.67</diameter>
+<centerlatitude>19.5</centerlatitude>
+<centerlongitude>274.31</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek hero, smith; father of Icarus.</origin>
+</feature>
+<feature>
+<name>Danube Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>248.03</diameter>
+<centerlatitude>-22.58</centerlatitude>
+<centerlongitude>258.01</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Dazhbog Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>118.85</diameter>
+<centerlatitude>55.13</centerlatitude>
+<centerlongitude>301.52</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Slavonic sun god.</origin>
+</feature>
+<feature>
+<name>Dingir Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>48.26</diameter>
+<centerlatitude>-4.12</centerlatitude>
+<centerlongitude>341.39</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Sumerian sun god; means "shining".</origin>
+</feature>
+<feature>
+<name>Dodona Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>515</diameter>
+<centerlatitude>-59.07</centerlatitude>
+<centerlongitude>348.23</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; where Io went after the death of Argus.</origin>
+</feature>
+<feature>
+<name>Donar Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>436.36</diameter>
+<centerlatitude>20.29</centerlatitude>
+<centerlongitude>186.99</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Teutonic god of thunder.</origin>
+</feature>
+<feature>
+<name>Dorian Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>566.21</diameter>
+<centerlatitude>-25.1</centerlatitude>
+<centerlongitude>196.69</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Region in ancient Greece.</origin>
+</feature>
+<feature>
+<name>Dusura Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>65.62</diameter>
+<centerlatitude>37.53</centerlatitude>
+<centerlongitude>119.03</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Nabataean sun god.</origin>
+</feature>
+<feature>
+<name>Echo Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>205.05</diameter>
+<centerlatitude>-79.92</centerlatitude>
+<centerlongitude>354.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Mother of Iynx.</origin>
+</feature>
+<feature>
+<name>Egypt Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>218.54</diameter>
+<centerlatitude>-41.56</centerlatitude>
+<centerlongitude>256.97</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Io ended her wanderings here.</origin>
+</feature>
+<feature>
+<name>Ekhi Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>51.68</diameter>
+<centerlatitude>-28.36</centerlatitude>
+<centerlongitude>88.49</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Basque sun goddess.</origin>
+</feature>
+<feature>
+<name>Emakong Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>77.42</diameter>
+<centerlatitude>-3.37</centerlatitude>
+<centerlongitude>119.85</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Sulca (New Britain) man who brought fire.</origin>
+</feature>
+<feature>
+<name>Epaphus Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>126.26</diameter>
+<centerlatitude>-53.05</centerlatitude>
+<centerlongitude>239.95</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>"Child of touch," son of Io and Zeus.</origin>
+</feature>
+<feature>
+<name>Estan Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.6</diameter>
+<centerlatitude>21.53</centerlatitude>
+<centerlongitude>87.59</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Hittite sun god.</origin>
+</feature>
+<feature>
+<name>Ethiopia Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>328.01</diameter>
+<centerlatitude>-45.48</centerlatitude>
+<centerlongitude>24.45</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Euboea Fluctūs</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>113</diameter>
+<centerlatitude>-44.87</centerlatitude>
+<centerlongitude>351.1</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Euboea Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>274.91</diameter>
+<centerlatitude>-47.94</centerlatitude>
+<centerlongitude>335.78</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Euxine Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>282.13</diameter>
+<centerlatitude>26.32</centerlatitude>
+<centerlongitude>126.44</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Io passed by here in her wanderings.</origin>
+</feature>
+<feature>
+<name>Fjorgynn Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>413.84</diameter>
+<centerlatitude>10.92</centerlatitude>
+<centerlongitude>358.8</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Norse thunder god.</origin>
+</feature>
+<feature>
+<name>Fo Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>104.37</diameter>
+<centerlatitude>41.78</centerlatitude>
+<centerlongitude>191.25</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Chinese fire and sun god.</origin>
+</feature>
+<feature>
+<name>Fuchi Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>66.44</diameter>
+<centerlatitude>28.41</centerlatitude>
+<centerlongitude>327.6</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Ainu fire goddess.</origin>
+</feature>
+<feature>
+<name>Gabija Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>50.6</diameter>
+<centerlatitude>-51.9</centerlatitude>
+<centerlongitude>202.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Lithuanian fire and household goddess.</origin>
+</feature>
+<feature>
+<name>Galai Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>122.02</diameter>
+<centerlatitude>-10.8</centerlatitude>
+<centerlongitude>288.1</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Mongol fire god.</origin>
+</feature>
+<feature>
+<name>Gibil Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>107.63</diameter>
+<centerlatitude>-14.91</centerlatitude>
+<centerlongitude>294.59</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Sumerian fire god.</origin>
+</feature>
+<feature>
+<name>Girru Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>67.32</diameter>
+<centerlatitude>22.83</centerlatitude>
+<centerlongitude>240</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Babylonian fire god.</origin>
+</feature>
+<feature>
+<name>Gish Bar Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>218.54</diameter>
+<centerlatitude>18.5</centerlatitude>
+<centerlongitude>88.95</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Babylonian sun god.</origin>
+</feature>
+<feature>
+<name>Gish Bar Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>117.13</diameter>
+<centerlatitude>16.18</centerlatitude>
+<centerlongitude>90.3</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Babylonian sun god.</origin>
+</feature>
+<feature>
+<name>Grannos Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>43.56</diameter>
+<centerlatitude>11.17</centerlatitude>
+<centerlongitude>145.34</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Gaulish sun god.</origin>
+</feature>
+<feature>
+<name>Grian Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>87.8</diameter>
+<centerlatitude>-11.3</centerlatitude>
+<centerlongitude>11.85</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>Jul 3, 2007</approvaldate>
+<origin>Celtic solar goddess.</origin>
+</feature>
+<feature>
+<name>Haemus Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>331.26</diameter>
+<centerlatitude>-70.12</centerlatitude>
+<centerlongitude>46.61</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Haokah Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>52.04</diameter>
+<centerlatitude>-20.85</centerlatitude>
+<centerlongitude>186.63</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Sioux thunder god.</origin>
+</feature>
+<feature>
+<name>Hatchawa Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>85.3</diameter>
+<centerlatitude>-59.51</centerlatitude>
+<centerlongitude>31.97</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Yaroro (Slavic) god who, in form of a boy, gave fire to mankind.
+</origin>
+</feature>
+<feature>
+<name>Heiseb Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>78.48</diameter>
+<centerlatitude>29.95</centerlatitude>
+<centerlongitude>244.49</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Bushman devil who represents fire.</origin>
+</feature>
+<feature>
+<name>Heno Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>71.65</diameter>
+<centerlatitude>-57.09</centerlatitude>
+<centerlongitude>311.64</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Iroquois god of thunder.</origin>
+</feature>
+<feature>
+<name>Hephaestus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>40.59</diameter>
+<centerlatitude>1.85</centerlatitude>
+<centerlongitude>289.78</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek smith god.</origin>
+</feature>
+<feature>
+<name>Hermes Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>133.3</diameter>
+<centerlatitude>-43.65</centerlatitude>
+<centerlongitude>246.34</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Freed Io from Argus.</origin>
+</feature>
+<feature>
+<name>Hi'iaka Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>500</diameter>
+<centerlatitude>-4.68</centerlatitude>
+<centerlongitude>81.96</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Sister of Hawaiian volcano goddess Pele.</origin>
+</feature>
+<feature>
+<name>Hi'iaka Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>141.96</diameter>
+<centerlatitude>-3.55</centerlatitude>
+<centerlongitude>79.48</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Sister of Pele.</origin>
+</feature>
+<feature>
+<name>Hiruko Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>92.83</diameter>
+<centerlatitude>-65.09</centerlatitude>
+<centerlongitude>328.87</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Japanese sun god.</origin>
+</feature>
+<feature>
+<name>Horus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>165.14</diameter>
+<centerlatitude>-9.91</centerlatitude>
+<centerlongitude>337.37</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Egyptian falcon-headed solar god.</origin>
+</feature>
+<feature>
+<name>Huo Shen Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>182.7</diameter>
+<centerlatitude>-16.69</centerlatitude>
+<centerlongitude>330.3</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>Chinese god of fire.</origin>
+</feature>
+<feature>
+<name>Hybristes Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>195.84</diameter>
+<centerlatitude>-54.39</centerlatitude>
+<centerlongitude>18.37</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Where Io passed by in her wanderings.</origin>
+</feature>
+<feature>
+<name>Illyrikon Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>1000.51</diameter>
+<centerlatitude>-70.88</centerlatitude>
+<centerlongitude>177.77</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Io passed by here in her wanderings.</origin>
+</feature>
+<feature>
+<name>Ilmarinen Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>39.79</diameter>
+<centerlatitude>-14.41</centerlatitude>
+<centerlongitude>1.2</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Finnish blacksmith with supernatural creative powers.
+</origin>
+</feature>
+<feature>
+<name>Inachus Tholus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>178.93</diameter>
+<centerlatitude>-16.21</centerlatitude>
+<centerlongitude>347.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; river god, father of Io.</origin>
+</feature>
+<feature>
+<name>Inti Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>76.26</diameter>
+<centerlatitude>-68.37</centerlatitude>
+<centerlongitude>347.5</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Inca sun god.</origin>
+</feature>
+<feature>
+<name>Ionian Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>193.33</diameter>
+<centerlatitude>9.04</centerlatitude>
+<centerlongitude>236.24</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Io crossed this sea in her wanderings.</origin>
+</feature>
+<feature>
+<name>Iopolis Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>234.69</diameter>
+<centerlatitude>-35.29</centerlatitude>
+<centerlongitude>332.71</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Town where Io was worshipped as moon goddess (present-day Antioch).
+</origin>
+</feature>
+<feature>
+<name>Isum Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>59.13</diameter>
+<centerlatitude>29.86</centerlatitude>
+<centerlongitude>208.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Assyrian fire god.</origin>
+</feature>
+<feature>
+<name>Itzamna Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>142.46</diameter>
+<centerlatitude>-15.81</centerlatitude>
+<centerlongitude>99.18</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Mayan sun, sky, wind and rain god.</origin>
+</feature>
+<feature>
+<name>Iynx Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>116.97</diameter>
+<centerlatitude>-62.28</centerlatitude>
+<centerlongitude>304</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Cast a spell on Zeus so he fell in love with Io.</origin>
+</feature>
+<feature>
+<name>Janus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>53.22</diameter>
+<centerlatitude>-4.56</centerlatitude>
+<centerlongitude>39.02</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Italian sun god.</origin>
+</feature>
+<feature>
+<name>Kami-Nari Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>36.22</diameter>
+<centerlatitude>-8.82</centerlatitude>
+<centerlongitude>235.09</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Japanese god of rolling thunder.</origin>
+</feature>
+<feature>
+<name>Kanehekili</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>0</diameter>
+<centerlatitude>-17.46</centerlatitude>
+<centerlongitude>33.36</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Hawaiian thunder god.</origin>
+</feature>
+<feature>
+<name>Kanehekili Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>258.69</diameter>
+<centerlatitude>-17.18</centerlatitude>
+<centerlongitude>33.37</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Hawaiian thunder god.</origin>
+</feature>
+<feature>
+<name>Kane Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>132.22</diameter>
+<centerlatitude>-48.42</centerlatitude>
+<centerlongitude>11.75</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian god of sunlight.</origin>
+</feature>
+<feature>
+<name>Karei Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>35.37</diameter>
+<centerlatitude>0.2</centerlatitude>
+<centerlongitude>13.17</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Semangan (Malay Peninsula) thunder god.</origin>
+</feature>
+<feature>
+<name>Kava Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>63</diameter>
+<centerlatitude>-16.82</centerlatitude>
+<centerlongitude>341.41</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Persian blacksmith.</origin>
+</feature>
+<feature>
+<name>Khalla Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.79</diameter>
+<centerlatitude>6.18</centerlatitude>
+<centerlongitude>303.27</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Bushman sun in form of man often referred to as the hunter.
+</origin>
+</feature>
+<feature>
+<name>Kibero Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>63.13</diameter>
+<centerlatitude>-11.83</centerlatitude>
+<centerlongitude>305.11</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>
+Yaroro toad who lives in underworld giving mankind fire.
+</origin>
+</feature>
+<feature>
+<name>Kinich Ahau Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>44.26</diameter>
+<centerlatitude>49.35</centerlatitude>
+<centerlongitude>310.25</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Mayan sun god.</origin>
+</feature>
+<feature>
+<name>Kurdalagon Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>81.12</diameter>
+<centerlatitude>-50.57</centerlatitude>
+<centerlongitude>218.23</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Ossetian celestial smith.</origin>
+</feature>
+<feature>
+<name>Laki-oi Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>58.4</diameter>
+<centerlatitude>-40</centerlatitude>
+<centerlongitude>58.36</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Bornean hero who invented fire.</origin>
+</feature>
+<feature>
+<name>Lei-Kung Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>347.45</diameter>
+<centerlatitude>40.13</centerlatitude>
+<centerlongitude>206.44</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Chinese thunder god.</origin>
+</feature>
+<feature>
+<name>Lei-zi Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>176.92</diameter>
+<centerlatitude>13.48</centerlatitude>
+<centerlongitude>44.93</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Chinese goddess of thunder.</origin>
+</feature>
+<feature>
+<name>Lerna Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>580.94</diameter>
+<centerlatitude>-61.8</centerlatitude>
+<centerlongitude>292.08</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; meadows of Lyrcea.</origin>
+</feature>
+<feature>
+<name>Llew Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>73.29</diameter>
+<centerlatitude>12.16</centerlatitude>
+<centerlongitude>242.34</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Celtic sun god.</origin>
+</feature>
+<feature>
+<name>Loki</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>0</diameter>
+<centerlatitude>18.41</centerlatitude>
+<centerlongitude>302.58</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Norse blacksmith, trickster god.</origin>
+</feature>
+<feature>
+<name>Loki Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>226.57</diameter>
+<centerlatitude>13.01</centerlatitude>
+<centerlongitude>308.79</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Norse blacksmith, trickster god.</origin>
+</feature>
+<feature>
+<name>Lu Huo Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>66.62</diameter>
+<centerlatitude>-38.56</centerlatitude>
+<centerlongitude>353.1</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>
+Stove fire associated with Chinese god of the hearth fire.
+</origin>
+</feature>
+<feature>
+<name>Lyrcea Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>424.95</diameter>
+<centerlatitude>-41.99</centerlatitude>
+<centerlongitude>269.43</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Plain where Io was born.</origin>
+</feature>
+<feature>
+<name>Maasaw Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>44.07</diameter>
+<centerlatitude>-40.28</centerlatitude>
+<centerlongitude>339.11</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hopi (USA) god of fire and death.</origin>
+</feature>
+<feature>
+<name>Mafuike Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>153.93</diameter>
+<centerlatitude>-13.58</centerlatitude>
+<centerlongitude>259.42</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian demigoddess whose fingers held fire.</origin>
+</feature>
+<feature>
+<name>Malik Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>117.85</diameter>
+<centerlatitude>-34.15</centerlatitude>
+<centerlongitude>129.66</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Babylonian, Caananite sun god.</origin>
+</feature>
+<feature>
+<name>Mama Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>13.84</diameter>
+<centerlatitude>-11.29</centerlatitude>
+<centerlongitude>355.33</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Chagaba (Chibcha, Colombia) word for sun.</origin>
+</feature>
+<feature>
+<name>Manua Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>111.45</diameter>
+<centerlatitude>35.91</centerlatitude>
+<centerlongitude>321.82</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian sun god.</origin>
+</feature>
+<feature>
+<name>Marduk</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>370.15</diameter>
+<centerlatitude>-29.64</centerlatitude>
+<centerlongitude>209.9</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Sumero-Akkadian fire god.</origin>
+</feature>
+<feature>
+<name>Marduk Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>200</diameter>
+<centerlatitude>-26.8</centerlatitude>
+<centerlongitude>211.33</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Sumero-Akkadian fire god.</origin>
+</feature>
+<feature>
+<name>Masaya Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>61.86</diameter>
+<centerlatitude>-22.62</centerlatitude>
+<centerlongitude>344.58</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Nicaraguan smith god.</origin>
+</feature>
+<feature>
+<name>Masubi</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>509.1</diameter>
+<centerlatitude>-50.29</centerlatitude>
+<centerlongitude>57.3</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Japanese fire god.</origin>
+</feature>
+<feature>
+<name>Masubi Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>499.94</diameter>
+<centerlatitude>-50.89</centerlatitude>
+<centerlongitude>57.77</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Japanese fire god.</origin>
+</feature>
+<feature>
+<name>Maui</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>109.89</diameter>
+<centerlatitude>19.69</centerlatitude>
+<centerlongitude>122.28</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian demigod who sought fire from Mafuike.</origin>
+</feature>
+<feature>
+<name>Maui Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>38.12</diameter>
+<centerlatitude>16.61</centerlatitude>
+<centerlongitude>124.23</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian demigod who sought fire from Mafuike.</origin>
+</feature>
+<feature>
+<name>[Mazda Catena]</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>240.78</diameter>
+<centerlatitude>-8.81</centerlatitude>
+<centerlongitude>313.28</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="6">Dropped, disallowed</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Babylonian sun god. (Changed to Mazda Paterae.)</origin>
+</feature>
+<feature>
+<name>Mazda Paterae</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>223</diameter>
+<centerlatitude>-8.2</centerlatitude>
+<centerlongitude>313.01</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Babylonian sun god.</origin>
+</feature>
+<feature>
+<name>Mbali Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>49.8</diameter>
+<centerlatitude>-31.43</centerlatitude>
+<centerlongitude>4.96</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>Pygmy word representing fire itself.</origin>
+</feature>
+<feature>
+<name>Media Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>2627.92</diameter>
+<centerlatitude>10.62</centerlatitude>
+<centerlongitude>59.9</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>
+Greek; Io passed through this part of Iran in her wanderings.
+</origin>
+</feature>
+<feature>
+<name>Menahka Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>19.23</diameter>
+<centerlatitude>-31.34</centerlatitude>
+<centerlongitude>344.84</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Mandan (USA) name for the sun.</origin>
+</feature>
+<feature>
+<name>Mentu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>101.65</diameter>
+<centerlatitude>7.01</centerlatitude>
+<centerlongitude>139.39</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Egyptian god of the rising sun.</origin>
+</feature>
+<feature>
+<name>Michabo Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>96.7</diameter>
+<centerlatitude>1.13</centerlatitude>
+<centerlongitude>167.56</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>
+Algonquin lord of eastern light, thunder, and wind.
+</origin>
+</feature>
+<feature>
+<name>Mihr Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>58.71</diameter>
+<centerlatitude>-16.46</centerlatitude>
+<centerlongitude>305.42</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Armenian fire god.</origin>
+</feature>
+<feature>
+<name>Mithra Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>32.16</diameter>
+<centerlatitude>-59.04</centerlatitude>
+<centerlongitude>266.48</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Persian god of light.</origin>
+</feature>
+<feature>
+<name>Monan Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>293.77</diameter>
+<centerlatitude>15.54</centerlatitude>
+<centerlongitude>104.2</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>
+Brazilian god who destroyed the world with fire and flood.
+</origin>
+</feature>
+<feature>
+<name>Monan Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>137.49</diameter>
+<centerlatitude>19.82</centerlatitude>
+<centerlongitude>104.81</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>
+Brazilian god who destroyed the world with fire and flood.
+</origin>
+</feature>
+<feature>
+<name>Mongibello Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>214.57</diameter>
+<centerlatitude>22.67</centerlatitude>
+<centerlongitude>67.05</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>
+Name for Mt. Etna, site of Vulcan's forge in Dante's "The Inferno." Thunderbolts from here killed Capaneus, the great blasphemer.
+</origin>
+</feature>
+<feature>
+<name>Mulungu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>64.78</diameter>
+<centerlatitude>17.29</centerlatitude>
+<centerlongitude>217.88</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>African thunder god.</origin>
+</feature>
+<feature>
+<name>Mycenae Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>594.01</diameter>
+<centerlatitude>-36.6</centerlatitude>
+<centerlongitude>164.95</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; in some legends, Io was transformed there.</origin>
+</feature>
+<feature>
+<name>Namarrkun Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>17.02</diameter>
+<centerlatitude>10.06</centerlatitude>
+<centerlongitude>175.52</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>
+Australian "lightning man" who made lightning and thunder by striking clouds with stone axes attached to his elbows and knees.
+</origin>
+</feature>
+<feature>
+<name>Nemea Planum</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>888.5</diameter>
+<centerlatitude>-72.33</centerlatitude>
+<centerlongitude>265.82</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>
+Greek; where Io was turned into a cow by Zeus and given to Hera.
+</origin>
+</feature>
+<feature>
+<name>Nile Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>417</diameter>
+<centerlatitude>53.65</centerlatitude>
+<centerlongitude>250.46</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Where Zeus restored Io to her human form.</origin>
+</feature>
+<feature>
+<name>Nina Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>43.51</diameter>
+<centerlatitude>-38.15</centerlatitude>
+<centerlongitude>162.63</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Inca fire god.</origin>
+</feature>
+<feature>
+<name>Ninurta Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>82.86</diameter>
+<centerlatitude>-16.79</centerlatitude>
+<centerlongitude>315.19</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Babylonian god of the spring sun.</origin>
+</feature>
+<feature>
+<name>Nusku Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>127.99</diameter>
+<centerlatitude>-64.96</centerlatitude>
+<centerlongitude>3.61</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Assyrian fire god.</origin>
+</feature>
+<feature>
+<name>Nyambe Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>56.64</diameter>
+<centerlatitude>0.32</centerlatitude>
+<centerlongitude>343.16</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Zambezi sun god.</origin>
+</feature>
+<feature>
+<name>Ot Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>167.38</diameter>
+<centerlatitude>4.28</centerlatitude>
+<centerlongitude>215.76</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Mongolian fire and marriage goddess.</origin>
+</feature>
+<feature>
+<name>Ot Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>50.07</diameter>
+<centerlatitude>-1.14</centerlatitude>
+<centerlongitude>217.38</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Mongolian fire and marriage goddess.</origin>
+</feature>
+<feature>
+<name>Päive Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>57.42</diameter>
+<centerlatitude>-45.69</centerlatitude>
+<centerlongitude>358.55</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Saami-Lapp sun god.</origin>
+</feature>
+<feature>
+<name>Pan Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>287.48</diameter>
+<centerlatitude>-51.8</centerlatitude>
+<centerlongitude>30.86</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Father of Iynx.</origin>
+</feature>
+<feature>
+<name>Pautiwa Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>7.52</diameter>
+<centerlatitude>-34.2</centerlatitude>
+<centerlongitude>345.59</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Hopi (USA) name for the sun.</origin>
+</feature>
+<feature>
+<name>Pele</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>0</diameter>
+<centerlatitude>-18.71</centerlatitude>
+<centerlongitude>255.28</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Hawaiian goddess of the volcano.</origin>
+</feature>
+<feature>
+<name>Pillan Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>201.09</diameter>
+<centerlatitude>-8.02</centerlatitude>
+<centerlongitude>245.41</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Araucanian thunder, fire, and volcano god.</origin>
+</feature>
+<feature>
+<name>Pillan Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>68.92</diameter>
+<centerlatitude>-12.3</centerlatitude>
+<centerlongitude>243.29</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Araucanian thunder, fire, and volcano god.</origin>
+</feature>
+<feature>
+<name>Podja Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>69.61</diameter>
+<centerlatitude>-18.5</centerlatitude>
+<centerlongitude>304.75</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Tungu spirit who keeps the fire.</origin>
+</feature>
+<feature>
+<name>Prometheus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>438.79</diameter>
+<centerlatitude>-1.52</centerlatitude>
+<centerlongitude>153.94</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek fire god.</origin>
+</feature>
+<feature>
+<name>Prometheus Mensa</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>178.7</diameter>
+<centerlatitude>-2.49</centerlatitude>
+<centerlongitude>152.17</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Greek fire god.</origin>
+</feature>
+<feature>
+<name>Prometheus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>28.27</diameter>
+<centerlatitude>-0.64</centerlatitude>
+<centerlongitude>152.41</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>Jul 3, 2007</approvaldate>
+<origin>Greek fire god.</origin>
+</feature>
+<feature>
+<name>Purgine Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>18.48</diameter>
+<centerlatitude>-2.37</centerlatitude>
+<centerlongitude>297.26</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Mordvinian (Russia) thunder god.</origin>
+</feature>
+<feature>
+<name>Pyerun Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>56.93</diameter>
+<centerlatitude>-55.65</centerlatitude>
+<centerlongitude>251.06</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Slavonic god of thunder.</origin>
+</feature>
+<feature>
+<name>Radegast Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>25.75</diameter>
+<centerlatitude>-27.81</centerlatitude>
+<centerlongitude>159.99</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>West Slavic maker of thunder and lightning.</origin>
+</feature>
+<feature>
+<name>Ra Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>41.19</diameter>
+<centerlatitude>-8.59</centerlatitude>
+<centerlongitude>324.82</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Egyptian sun god.</origin>
+</feature>
+<feature>
+<name>Rarog Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>102.94</diameter>
+<centerlatitude>-41.63</centerlatitude>
+<centerlongitude>304.3</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Czech fire deity.</origin>
+</feature>
+<feature>
+<name>Rata Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>167.87</diameter>
+<centerlatitude>-36.4</centerlatitude>
+<centerlongitude>201.26</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Māori sun hero.</origin>
+</feature>
+<feature>
+<name>Rata Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>47.33</diameter>
+<centerlatitude>-35.6</centerlatitude>
+<centerlongitude>199.69</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Māori sun hero.</origin>
+</feature>
+<feature>
+<name>Reiden Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>77.67</diameter>
+<centerlatitude>-13.3</centerlatitude>
+<centerlongitude>235.47</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Japanese thunder god.</origin>
+</feature>
+<feature>
+<name>Reshef Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>59.18</diameter>
+<centerlatitude>27.7</centerlatitude>
+<centerlongitude>158.05</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Phoenician god of lightning, sun, and thunder.</origin>
+</feature>
+<feature>
+<name>[Reshet Catena]</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>148.34</diameter>
+<centerlatitude>0.53</centerlatitude>
+<centerlongitude>305.48</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="6">Dropped, disallowed</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Aramaic sun god. (Changed to Reshet Patera.)</origin>
+</feature>
+<feature>
+<name>Reshet Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>146.07</diameter>
+<centerlatitude>0.79</centerlatitude>
+<centerlongitude>305.62</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Aramaic sun god.</origin>
+</feature>
+<feature>
+<name>Ruaumoko Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>18.28</diameter>
+<centerlatitude>14.72</centerlatitude>
+<centerlongitude>139.74</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>
+Polynesian god who causes earthquakes and volcanoes.
+</origin>
+</feature>
+<feature>
+<name>Ruwa Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>51.39</diameter>
+<centerlatitude>0.2</centerlatitude>
+<centerlongitude>1.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>African sun god associated Mt. Kilimanjaro.</origin>
+</feature>
+<feature>
+<name>Savitr Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>104.8</diameter>
+<centerlatitude>48.51</centerlatitude>
+<centerlongitude>123.19</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Hindu sun god.</origin>
+</feature>
+<feature>
+<name>Sêd Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>55.12</diameter>
+<centerlatitude>-2.94</centerlatitude>
+<centerlongitude>303.72</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Phoenician chariot rider of the Sun.</origin>
+</feature>
+<feature>
+<name>Sengen Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>65.99</diameter>
+<centerlatitude>-32.86</centerlatitude>
+<centerlongitude>303.79</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Japanese; deity of Mt. Fujiyama.</origin>
+</feature>
+<feature>
+<name>Sethlaus Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>74.54</diameter>
+<centerlatitude>-52.29</centerlatitude>
+<centerlongitude>193.87</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Etruscan celestial smith.</origin>
+</feature>
+<feature>
+<name>Seth Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>128.02</diameter>
+<centerlatitude>-10.76</centerlatitude>
+<centerlongitude>134.13</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Egyptian thunder god.</origin>
+</feature>
+<feature>
+<name>Seth Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>18.48</diameter>
+<centerlatitude>-5.31</centerlatitude>
+<centerlongitude>132.03</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Egyptian thunder god.</origin>
+</feature>
+<feature>
+<name>Shakuru Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>110.22</diameter>
+<centerlatitude>24</centerlatitude>
+<centerlongitude>265.9</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>
+Pawnee (USA) sun god of the East; gives light and heat.
+</origin>
+</feature>
+<feature>
+<name>Shamash Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>112.98</diameter>
+<centerlatitude>-35.49</centerlatitude>
+<centerlongitude>152.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Assyro-Babylonian sun god.</origin>
+</feature>
+<feature>
+<name>Shamshu Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>210</diameter>
+<centerlatitude>-12.04</centerlatitude>
+<centerlongitude>71.41</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Arabian sun goddess.</origin>
+</feature>
+<feature>
+<name>Shamshu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>107.12</diameter>
+<centerlatitude>-9.95</centerlatitude>
+<centerlongitude>63.17</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Arabian sun goddess.</origin>
+</feature>
+<feature>
+<name>Shango Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>90.8</diameter>
+<centerlatitude>32.46</centerlatitude>
+<centerlongitude>100.51</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Yoruba thunder god.</origin>
+</feature>
+<feature>
+<name>Shoshu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>23.24</diameter>
+<centerlatitude>-20.38</centerlatitude>
+<centerlongitude>324.71</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>Caucasian patron of fire.</origin>
+</feature>
+<feature>
+<name>Sigurd Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>52.87</diameter>
+<centerlatitude>-5.77</centerlatitude>
+<centerlongitude>98.05</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Norse sun hero.</origin>
+</feature>
+<feature>
+<name>Silpium Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>114.5</diameter>
+<centerlatitude>-52.62</centerlatitude>
+<centerlongitude>272.35</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Greek; where Io dies of grief in some legends.</origin>
+</feature>
+<feature>
+<name>Siun Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>52.49</diameter>
+<centerlatitude>-49.75</centerlatitude>
+<centerlongitude>0.32</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Nanai (Siberia) sun god.</origin>
+</feature>
+<feature>
+<name>Skythia Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>249.62</diameter>
+<centerlatitude>26.33</centerlatitude>
+<centerlongitude>97.81</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Io passed by here in her wanderings.</origin>
+</feature>
+<feature>
+<name>Sobo Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>44.78</diameter>
+<centerlatitude>14.03</centerlatitude>
+<centerlongitude>150.76</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Haitian voodoo thunder spirit.</origin>
+</feature>
+<feature>
+<name>Steropes Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>27.74</diameter>
+<centerlatitude>15.5</centerlatitude>
+<centerlongitude>138.92</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>
+One of the Greek Cyclops who created thunderbolts for Zeus.
+</origin>
+</feature>
+<feature>
+<name>Sui Jen Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>28.01</diameter>
+<centerlatitude>-19.14</centerlatitude>
+<centerlongitude>2.56</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Chinese hero who discovered fire.</origin>
+</feature>
+<feature>
+<name>Surt</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>0</diameter>
+<centerlatitude>45.37</centerlatitude>
+<centerlongitude>337.21</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Icelandic volcano god.</origin>
+</feature>
+<feature>
+<name>Surya Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>55.77</diameter>
+<centerlatitude>21.53</centerlatitude>
+<centerlongitude>151.36</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Hindu sun god.</origin>
+</feature>
+<feature>
+<name>Susanoo Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>55.22</diameter>
+<centerlatitude>22.46</centerlatitude>
+<centerlongitude>219.75</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Japanese storm and thunder god.</origin>
+</feature>
+<feature>
+<name>Svarog Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>124.39</diameter>
+<centerlatitude>-48.51</centerlatitude>
+<centerlongitude>265.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Russian smith god.</origin>
+</feature>
+<feature>
+<name>Talos Paterae</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>28</diameter>
+<centerlatitude>-26.35</centerlatitude>
+<centerlongitude>354.76</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>Nephew of Daedalus; also a blacksmith.</origin>
+</feature>
+<feature>
+<name>Taranis Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.76</diameter>
+<centerlatitude>-71.12</centerlatitude>
+<centerlongitude>27.97</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Celtic thunder god.</origin>
+</feature>
+<feature>
+<name>Tarsus Regio</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>1498.59</diameter>
+<centerlatitude>-36.69</centerlatitude>
+<centerlongitude>53.4</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Io passed through here in her wanderings.</origin>
+</feature>
+<feature>
+<name>Tawhaki Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>47.42</diameter>
+<centerlatitude>3.39</centerlatitude>
+<centerlongitude>76.21</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Māori lightning god.</origin>
+</feature>
+<feature>
+<name>Tawhaki Vallis</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>165.67</diameter>
+<centerlatitude>0.31</centerlatitude>
+<centerlongitude>72.76</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Māori lightning god.</origin>
+</feature>
+<feature>
+<name>Taw Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>7.04</diameter>
+<centerlatitude>-33.65</centerlatitude>
+<centerlongitude>358.37</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1982</approvaldate>
+<origin>Monguor word for fire or hearth.</origin>
+</feature>
+<feature>
+<name>Telegonus Mensae</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>329.5</diameter>
+<centerlatitude>-52.37</centerlatitude>
+<centerlongitude>115.37</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Egyptian king whom Io married.</origin>
+</feature>
+<feature>
+<name>Thomagata Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>55.2</diameter>
+<centerlatitude>25.65</centerlatitude>
+<centerlongitude>165.97</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>
+Chibcha storm god, a terrifying fire spirit who flew through the air changing men into animals.
+</origin>
+</feature>
+<feature>
+<name>Thor</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>240.3</diameter>
+<centerlatitude>39.2</centerlatitude>
+<centerlongitude>133.12</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Norse god of thunder.</origin>
+</feature>
+<feature>
+<name>Tien Mu Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>26.71</diameter>
+<centerlatitude>12.31</centerlatitude>
+<centerlongitude>134.34</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Chinese Mother-Lightning.</origin>
+</feature>
+<feature>
+<name>Tiermes Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>112.56</diameter>
+<centerlatitude>22.29</centerlatitude>
+<centerlongitude>350.15</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Lapp thunder god.</origin>
+</feature>
+<feature>
+<name>Tohil Mons</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>433.44</diameter>
+<centerlatitude>-28.42</centerlatitude>
+<centerlongitude>161.57</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Central American god who gave fire to man.</origin>
+</feature>
+<feature>
+<name>Tohil Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>126.46</diameter>
+<centerlatitude>-26.25</centerlatitude>
+<centerlongitude>158.09</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Central American god who gave fire to man.</origin>
+</feature>
+<feature>
+<name>Tol-Ava Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>87.22</diameter>
+<centerlatitude>1.75</centerlatitude>
+<centerlongitude>322.04</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Mordvinian (Russia) goddess of fire.</origin>
+</feature>
+<feature>
+<name>Tsũi Goab Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>111.38</diameter>
+<centerlatitude>-1.27</centerlatitude>
+<centerlongitude>163.45</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>
+Hottentot (southern Africa) supreme being, associated with thunder.
+</origin>
+</feature>
+<feature>
+<name>Tsũi Goab Tholus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>48.54</diameter>
+<centerlatitude>-0.18</centerlatitude>
+<centerlongitude>162.95</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>
+Hottentot (southern Africa) supreme being, associated with thunder.
+</origin>
+</feature>
+<feature>
+<name>Tung Yo Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>457.95</diameter>
+<centerlatitude>-17.32</centerlatitude>
+<centerlongitude>356.51</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Chinese fire god.</origin>
+</feature>
+<feature>
+<name>Tung Yo Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>49.59</diameter>
+<centerlatitude>-18</centerlatitude>
+<centerlongitude>0.95</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Chinese fire god.</origin>
+</feature>
+<feature>
+<name>Tupan Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>78.55</diameter>
+<centerlatitude>-18.68</centerlatitude>
+<centerlongitude>141.15</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Thunder god of the Tupi-Guarani Indians of Brazil.</origin>
+</feature>
+<feature>
+<name>[Tvashtar Catena]</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>306.19</diameter>
+<centerlatitude>62.76</centerlatitude>
+<centerlongitude>123.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="6">Dropped, disallowed</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>
+Indian sun god and smith who forged the thunderbolt of the thunder god Indra. (Changed to Tvashtar Paterae.)
+</origin>
+</feature>
+<feature>
+<name>Tvashtar Mensae</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>293</diameter>
+<centerlatitude>61.6</centerlatitude>
+<centerlongitude>119.94</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>
+Indian sun god and smith who forged the thunderbolt of the thunder god Indra.
+</origin>
+</feature>
+<feature>
+<name>Tvashtar Paterae</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>305</diameter>
+<centerlatitude>62.76</centerlatitude>
+<centerlongitude>123.53</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>
+Indian sun god and smith who forged the thunderbolt of the thunder god Indra.
+</origin>
+</feature>
+<feature>
+<name>Ukko Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>36.03</diameter>
+<centerlatitude>30.82</centerlatitude>
+<centerlongitude>18.48</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Finnish thunder god.</origin>
+</feature>
+<feature>
+<name>Ülgen Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>49.81</diameter>
+<centerlatitude>-40.74</centerlatitude>
+<centerlongitude>287.22</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Siberian progenitor god who struck first fire.</origin>
+</feature>
+<feature>
+<name>Uta Fluctus</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>366.67</diameter>
+<centerlatitude>-33.12</centerlatitude>
+<centerlongitude>16.14</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1985</approvaldate>
+<origin>Sumerian sun god.</origin>
+</feature>
+<feature>
+<name>Uta Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>33.84</diameter>
+<centerlatitude>-35.86</centerlatitude>
+<centerlongitude>22.52</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Sumerian sun god.</origin>
+</feature>
+<feature>
+<name>Vahagn Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>95.24</diameter>
+<centerlatitude>-24.19</centerlatitude>
+<centerlongitude>350.73</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Armenian fire god.</origin>
+</feature>
+<feature>
+<name>Viracocha Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>60.61</diameter>
+<centerlatitude>-61.75</centerlatitude>
+<centerlongitude>280.07</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Qechua sun god.</origin>
+</feature>
+<feature>
+<name>Vivasvant Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>98.67</diameter>
+<centerlatitude>75.59</centerlatitude>
+<centerlongitude>293.52</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2006</approvaldate>
+<origin>Hindu god of the morning sun.</origin>
+</feature>
+<feature>
+<name>Volund</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>427.26</diameter>
+<centerlatitude>29.33</centerlatitude>
+<centerlongitude>171.75</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1979</approvaldate>
+<origin>Germanic supreme smith of the gods.</origin>
+</feature>
+<feature>
+<name>Wabasso Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>30.6</diameter>
+<centerlatitude>-22.89</centerlatitude>
+<centerlongitude>166.65</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Potawatomi (north central U.S.) sun god.</origin>
+</feature>
+<feature>
+<name>Wayland Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>94.47</diameter>
+<centerlatitude>-32.55</centerlatitude>
+<centerlongitude>225.83</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Anglo-Saxon legendary smith.</origin>
+</feature>
+<feature>
+<name>Yaw Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>36.55</diameter>
+<centerlatitude>9.62</centerlatitude>
+<centerlongitude>132.34</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2003</approvaldate>
+<origin>Hebrew sun god at Gaza.</origin>
+</feature>
+<feature>
+<name>Zal Montes</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>436</diameter>
+<centerlatitude>38.43</centerlatitude>
+<centerlongitude>77.18</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>2000</approvaldate>
+<origin>Iranian sun god.</origin>
+</feature>
+<feature>
+<name>Zal Patera</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>168.11</diameter>
+<centerlatitude>40.14</centerlatitude>
+<centerlongitude>74.46</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Iranian sun god.</origin>
+</feature>
+<feature>
+<name>Zamama</name>
+<target>IO</target>
+<system>JUPITER</system>
+<diameter>198</diameter>
+<centerlatitude>18.7</centerlatitude>
+<centerlongitude>172.29</centerlongitude>
+<coordinateSystem>Planetographic, +West, 0 - 360</coordinateSystem>
+<approvalstatus id="5">Adopted by IAU</approvalstatus>
+<approvaldate>1997</approvaldate>
+<origin>Babylonian sun, corn, and war god.</origin>
+</feature>
+</searchresults>

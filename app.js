@@ -1,25 +1,26 @@
 var fs = require('fs');
 var request = require('request');
-
 const port = process.env.PORT || 3000
 
-// apache
-const serv = require("http").createServer();
-
-
-// });
-
-
-// express version
-// var express = require("express");
-// const serv = express()
-//   .use(express.static('public'))
-//   .get('/', (req,res) => res.sendFile(__dirname+'/public/io-map.html') )
-//   .listen(port, () => console.log('Server started on '+port+'!'));
+// testing distribution on VM
+var express = require("express");
+const serv = express()
+<<<<<<< HEAD:expressapp.js
+  .use(express.static('public'))
+  .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
+=======
+  .use(express.static('./'))
+  .get('/', (req,res) => res.sendFile(__dirname+'/io-map.html') )
+>>>>>>> twilight-zone:app.js
+  .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-const PATH_TO_DATA_MAP = "public/blend/data/export/";
+<<<<<<< HEAD:expressapp.js
+const PATH_TO_DATA_MAP = "IoMap/blend/data/export/";
+=======
+const PATH_TO_DATA_MAP = './reduced/Io/';
+>>>>>>> twilight-zone:app.js
 
 // io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {
@@ -84,7 +85,7 @@ io.sockets.on('connection', function (socket) {
 		regex = /\_(?:BrA|BrAc|h2o|Kc|Lp|Ms|PAH)\_(\d\d)(\d\d)UT\./;
 		// console.log(regex);
 		var dir = PATH_TO_DATA_MAP+year+month+day+"/";
-		// console.log(dir);
+		console.log(dir);
 
 		// TO DO: folder name of date
 		fs.readdir(dir, (err, files) => {
@@ -95,7 +96,7 @@ io.sockets.on('connection', function (socket) {
 		    	var fml = file.match(regex);
 		    	// console.log("iterating", fml);
 		        if (fml != null) {
-		            // console.log(file);
+		            console.log(file);
 		            filepaths.push(file);
 		        }
 		        // else {
@@ -184,7 +185,7 @@ io.sockets.on('connection', function (socket) {
 							// console.log(ephem);
 							var results = (ephem.match(/\$\$SOE\n\s(.*)\,\n/)[1]).split(',');
 
-							var data = {directory: dir.slice(7),
+							var data = {directory: dir,
 							 files: filepaths,
 							 location: results};
 
@@ -207,5 +208,3 @@ io.sockets.on('connection', function (socket) {
 	});
 
 });
-
-serv.listen(port, () => console.log('Server started on '+port+'!'));

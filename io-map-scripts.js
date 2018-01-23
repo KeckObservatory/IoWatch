@@ -19,7 +19,7 @@ b4w.register("io_map", function(exports, require) {
     const PATH_TO_DEFAULT_MAP = STATIC_ASSETS_PATH + "mband.jpg";
     const PATH_TO_COLOR_MAP = STATIC_ASSETS_PATH + "map-color.jpg";
     const APP_ASSETS_PATH = "reduced/Io/"
-    // const PATH_TO_DATA_MAP = APP_ASSETS_PATH + "data/export/";
+    // const PATH_TO_DATA_MAP = APP_ASSETS_PATH + "data/export/"; 
     // const PATH_TO_DEFAULT_MAP_SHELL = PATH_TO_DATA_MAP + "2017feb05/Io_Ms_1616.png"
 
     var _world = null;

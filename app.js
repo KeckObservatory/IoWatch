@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-  .use(express.static('public'))
+  .use(express.static('IoMap'))
   .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
   .listen(port, () => console.log('Server started on '+port+'!'));
 

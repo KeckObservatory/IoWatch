@@ -1,25 +1,17 @@
 var fs = require('fs');
 var request = require('request');
-
 const port = process.env.PORT || 3000
 
-// apache
-const serv = require("http").createServer();
-
-
-// });
-
-
-// express version
-// var express = require("express");
-// const serv = express()
-//   .use(express.static('public'))
-//   .get('/', (req,res) => res.sendFile(__dirname+'/public/io-map.html') )
-//   .listen(port, () => console.log('Server started on '+port+'!'));
+// testing distribution on VM
+var express = require("express");
+const serv = express()
+  .use(express.static('public'))
+  .get('/', (req,res) => res.sendFile(__dirname+'/IoMap/io-map.html') )
+  .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-const PATH_TO_DATA_MAP = "public/blend/data/export/";
+const PATH_TO_DATA_MAP = "reduced/Io";
 
 // io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {
@@ -207,5 +199,3 @@ io.sockets.on('connection', function (socket) {
 	});
 
 });
-
-serv.listen(port, () => console.log('Server started on '+port+'!'));

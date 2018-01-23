@@ -18,8 +18,8 @@ b4w.register("io_map", function(exports, require) {
     const APP_ASSETS_PATH = "blend/";
     const PATH_TO_DEFAULT_MAP = APP_ASSETS_PATH + "mband.jpg";
     const PATH_TO_COLOR_MAP = APP_ASSETS_PATH + "map-color.jpg";
-    const PATH_TO_DATA_MAP = APP_ASSETS_PATH + "data/export/";
-    const PATH_TO_DEFAULT_MAP_SHELL = PATH_TO_DATA_MAP + "2017feb05/Io_Ms_1616.png"
+    // const PATH_TO_DATA_MAP = APP_ASSETS_PATH + "data/export/";
+    // const PATH_TO_DEFAULT_MAP_SHELL = PATH_TO_DATA_MAP + "2017feb05/Io_Ms_1616.png"
 
     var _world = null;
     var _wait_for_image_loading = false;

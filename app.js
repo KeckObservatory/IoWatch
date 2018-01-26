@@ -1,6 +1,6 @@
 var fs = require('fs');
 var request = require('request');
-const port = 80;
+const port = 8080;
 
 // testing distribution on VM
 var express = require("express");

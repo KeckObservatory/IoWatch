@@ -1,12 +1,12 @@
 var fs = require('fs');
 var request = require('request');
-const port = process.env.PORT || 8080;
+const port = 80;
 
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-  .use(express.static('./'))
-  .get('/', (req,res) => res.sendFile(__dirname+'/io-map.html') )
+  .use(express.static(__dirname))
+  .get("/", (req,res) => res.sendFile(__dirname+'/io-map.html') )
   .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);

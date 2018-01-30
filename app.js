@@ -5,9 +5,9 @@ const port = 8080;
 // testing distribution on VM
 var express = require("express");
 const serv = express()
-  .use(express.static(__dirname))
-  .get("/", (req,res) => res.sendFile(__dirname+'/io-map.html') )
-  .listen(port, () => console.log('Server started on '+port+'!'));
+.use(express.static(__dirname))
+.get("/", (req,res) => res.sendFile(__dirname+'/io-map.html') )
+.listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
@@ -19,7 +19,7 @@ io.sockets.on('connection', function (socket) {
     socket.emit('connect');
 
     socket.on('disconnect', function () {
-          console.log('Client disconnect');
+        console.log('Client disconnect');
     });
 
     socket.on('dates', function(){
@@ -116,8 +116,8 @@ io.sockets.on('connection', function (socket) {
                 */
 
                 var code = {'Mercury':'199', 'Venus':'299', 'Earth':'399', 'Mars':'499',
-                    'Jupiter':'599', 'Io':'501', 'Europa':'502', 'Ganymede':'503',
-                    'Saturn':'699', 'Uranus':'799', 'Neptune':'899','Callisto':'504'};
+                'Jupiter':'599', 'Io':'501', 'Europa':'502', 'Ganymede':'503',
+                'Saturn':'699', 'Uranus':'799', 'Neptune':'899','Callisto':'504'};
                 var target = "Io";
 
 
@@ -131,9 +131,9 @@ io.sockets.on('connection', function (socket) {
                 if (Hour.length == 1){ Hour = "0"+Hour; }
 
                 var tstart_UT = ["'",year,"-",
-                            month,"-",
-                            day," ",
-                            Hour,":",Min,"'"].join("");
+                month,"-",
+                day," ",
+                Hour,":",Min,"'"].join("");
 
                 var DiM = 0;
 
@@ -152,33 +152,33 @@ io.sockets.on('connection', function (socket) {
                 }
 
                 var tend_UT = ["'",year,"-",
-                            month,"-",
-                            Dt," ",
-                            Hour,":",Min,"'"].join("");
+                month,"-",
+                Dt," ",
+                Hour,":",Min,"'"].join("");
 
                 var geturl =   ["http://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1",
-                            "&MAKE_EPHEM='YES'&TABLE_TYPE='OBSERVER'",
-                            "&COMMAND=", code[ target ],
-                            "&CENTER='568'", //568 = mauna kea
-                            "&START_TIME=",tstart_UT,
-                            "&STOP_TIME=",tend_UT,
-                            "&STEP_SIZE='1 day'",
-                            "&QUANTITIES='1,8,13,14,17'",
-                            "&CSV_FORMAT='YES'"].join("");
+                "&MAKE_EPHEM='YES'&TABLE_TYPE='OBSERVER'",
+                "&COMMAND=", code[ target ],
+                "&CENTER='568'", //568 = mauna kea
+                "&START_TIME=",tstart_UT,
+                "&STOP_TIME=",tend_UT,
+                "&STEP_SIZE='1 day'",
+                "&QUANTITIES='1,8,13,14,17'",
+                "&CSV_FORMAT='YES'"].join("");
 
                 // console.log(geturl);
 
                 var ephem = null;
-                   // request stuff. just do it once, to save time and whatever.
-                   request({uri: geturl,}, function(error, response, body) {
-                        try {
-                            ephem = body.toString();
-                            // console.log(ephem);
-                            var results = (ephem.match(/\$\$SOE\n\s(.*)\,\n/)[1]).split(',');
+                // request stuff. just do it once, to save time and whatever.
+                request({uri: geturl,}, function(error, response, body) {
+                    try {
+                        ephem = body.toString();
+                        // console.log(ephem);
+                        var results = (ephem.match(/\$\$SOE\n\s(.*)\,\n/)[1]).split(',');
 
-                            var data = {directory: dir,
-                             files: filepaths,
-                             location: results};
+                        var data = {directory: dir,
+                            files: filepaths,
+                            location: results};
 
                             // console.log(data);
                             io.emit('data',data);
@@ -187,15 +187,15 @@ io.sockets.on('connection', function (socket) {
                             console.log("threw error",err);
                             console.log("url: ",geturl);
                         }
-                });
-            }
+                    });
+                }
 
-            catch(err) {
-                console.log("No data for that day. (threw ",err,")");
-            }
+                catch(err) {
+                    console.log("No data for that day. (threw ",err,")");
+                }
+
+            });
 
         });
 
     });
-
-});

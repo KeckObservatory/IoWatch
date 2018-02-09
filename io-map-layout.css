@@ -96,11 +96,11 @@ td.highlight {
 }
 
 #name {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 #subtitle {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .logo {
@@ -114,7 +114,7 @@ td.highlight {
 }
 
 .dattitle {
-  margin-bottom: 10%;
+    margin-bottom: 10%;
 }
 
 #rsidebar {
@@ -180,12 +180,12 @@ td.highlight {
 }
 
 #research {
-  display: none;
-  margin: 0 5px;
+    display: none;
+    margin: 0 5px;
 }
 
 .paper {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .datcontainer {
@@ -209,8 +209,8 @@ td.highlight {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 .annotation {

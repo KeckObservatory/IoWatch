@@ -221,6 +221,7 @@ b4w.register("io_map", function(exports, require) {
 
         _socket.on('data', function(dat)
         {
+            console.log('data recieved')
             var xdata = false;
             var paths = dat.files;
             var filters = ['BrA','BrAc','h2o','Kc','Lp','Ms','PAH'];
@@ -243,12 +244,20 @@ b4w.register("io_map", function(exports, require) {
                 }
             }
 
-            var counter = 0;
+
 
             $(".dat").click(function(){
                 m_tex.change_image(_shell, "datamap", $(this).attr("src"), change_img_cb);
 
                 deselect();
+
+                var values = {
+                    ob_lon: $(this).attr("ob_lon"),
+                    ob_lat: $(this).attr("ob_lat"),
+                    ob_np_ang: $(this).attr("ob_np_ang")
+                };
+
+                m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
 
                 var shadow = "0px 0px 25px rgba(255,255,255,1)";
                 $(this).css("-webkit-box-shadow",shadow);
@@ -256,8 +265,12 @@ b4w.register("io_map", function(exports, require) {
                 $(this).css("-moz-box-shadow",shadow);
             });
 
+            var counter = 0;
+
             paths.forEach(file => {
+
                 var element = "#data"+counter.toString();
+                counter++;
 
                 console.log(element,dat.directory,file);
                 try {
@@ -265,6 +278,25 @@ b4w.register("io_map", function(exports, require) {
                     $(element).attr("src",dat.directory+file);
                     var regTs = file.match(/_(\d{2})(\d{2})(\w+)/);
                     $(element+"p").text(file.match(/Io_(.+)_/)[1]+" filter at "+regTs[1]+":"+regTs[2]+" "+regTs[3]);
+
+                    if (parseInt(regTs[2]) > 30) {
+                        var hourIndex = parseInt(regTs[1])+2;
+                    }
+                    else {
+                        var hourIndex = parseInt(regTs[1])+1;
+                    }
+
+                    console.log(hourIndex, counter)
+
+                    // var values = {
+                    //     ob_lon:parseFloat(dat.location[hourIndex].split(",")[8]),
+                    //     ob_lat:parseFloat(dat.location[hourIndex].split(",")[9]),
+                    //     ob_np_ang:parseFloat(dat.location[hourIndex].split(",")[10])
+                    // };
+
+                    $(element).attr("ob_lon",parseFloat(dat.location[hourIndex].split(",")[8]));
+                    $(element).attr("ob_lat",parseFloat(dat.location[hourIndex].split(",")[9]));
+                    $(element).attr("ob_np_ang",parseFloat(dat.location[hourIndex].split(",")[10]));
 
                     if (!xdata) {
                         m_tex.change_image(_shell, "datamap", $(element).attr("src"), change_img_cb);
@@ -277,7 +309,7 @@ b4w.register("io_map", function(exports, require) {
                         xdata=true;
                     }
 
-                    counter++;
+
                 }
 
                 catch(err) {
@@ -290,9 +322,9 @@ b4w.register("io_map", function(exports, require) {
             });
 
             var values = {
-                ob_lon:parseFloat(dat.location[8]),
-                ob_lat:parseFloat(dat.location[9]),
-                ob_np_ang:parseFloat(dat.location[10])
+                ob_lon:parseFloat(dat.location[1].split(",")[8]),
+                ob_lat:parseFloat(dat.location[1].split(",")[9]),
+                ob_np_ang:parseFloat(dat.location[1].split(",")[10])
             };
 
             if(DEBUG) {

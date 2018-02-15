@@ -73,7 +73,7 @@ io.sockets.on('connection', function (socket) {
         var year = date[0];
 
         var filepaths = [];
-        regex = /\_(?:BrA|BrAc|h2o|Kc|Lp|Ms|PAH)\_(\d\d)(\d\d)UT\./;
+        regex = /\_(?:H2O|BrA|Bra|Brac|BrAc|h2o|Kc|Lp|Ms|PAH|pah)\_(\d\d)(\d\d)UT\./;
         // console.log(regex);
         var dir = PATH_TO_DATA_MAP+year+month+day+"/";
         console.log(dir);

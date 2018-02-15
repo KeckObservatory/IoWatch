@@ -177,7 +177,7 @@ b4w.register("io_map", function(exports, require) {
             console.log("connected");
         });
 
-        var filters = ['bra','brac','h2o','kc','lp','ms','PAH']
+        var filters = ['H2O','bra','brac','h2o','kc','lp','ms','PAH']
 
         filters.forEach(filter => {
             $("#"+filter+"d").hide();
@@ -224,6 +224,7 @@ b4w.register("io_map", function(exports, require) {
             console.log('data recieved')
             var xdata = false;
             var paths = dat.files;
+            // console.log(paths);
             var filters = ['BrA','BrAc','h2o','Kc','Lp','Ms','PAH'];
 
             for (var c=0; c<paths.length; c++) {
@@ -247,7 +248,6 @@ b4w.register("io_map", function(exports, require) {
 
 
             $(".dat").click(function(){
-                m_tex.change_image(_shell, "datamap", $(this).attr("src"), change_img_cb);
 
                 deselect();
 
@@ -258,6 +258,7 @@ b4w.register("io_map", function(exports, require) {
                 };
 
                 m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
+                m_tex.change_image(_shell, "datamap", $(this).attr("src"), change_img_cb);
 
                 var shadow = "0px 0px 25px rgba(255,255,255,1)";
                 $(this).css("-webkit-box-shadow",shadow);
@@ -321,18 +322,30 @@ b4w.register("io_map", function(exports, require) {
 
             });
 
+            var regTs = paths[0].match(/_(\d{2})(\d{2})(\w+)/);
+
+            if (parseInt(regTs[2]) > 30) {
+                var hourIndex = parseInt(regTs[1])+2;
+            }
+            else {
+                var hourIndex = parseInt(regTs[1])+1;
+            }
+
             var values = {
-                ob_lon:parseFloat(dat.location[1].split(",")[8]),
-                ob_lat:parseFloat(dat.location[1].split(",")[9]),
-                ob_np_ang:parseFloat(dat.location[1].split(",")[10])
+                ob_lon:parseFloat(dat.location[hourIndex].split(",")[8]),
+                ob_lat:parseFloat(dat.location[hourIndex].split(",")[9]),
+                ob_np_ang:parseFloat(dat.location[hourIndex].split(",")[10])
             };
 
             if(DEBUG) {
                 console.log(paths,values);
             }
 
+            console.log(dat.directory+paths[1]);
+
             m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
             m_transform.set_translation(_shell,0,0,0);
+            m_tex.change_image(_shell, "datamap", dat.directory+paths[0], change_img_cb);
 
             shell_active = true;
             $("#togShell").text("Hide Shell");

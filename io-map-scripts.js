@@ -227,13 +227,16 @@ b4w.register("io_map", function(exports, require) {
             // console.log(paths);
             var filters = ['BrA','BrAc','h2o','Kc','Lp','Ms','PAH'];
 
+            $(".datcontainer").hide();
+
             for (var c=0; c<paths.length; c++) {
                 var ele = $("#data"+c.toString()+"d");
                 if (ele.length) {
-                    ele.hide();
+                    // ele.hide();
+                    // console.log('element exists: ',ele)
                 }
                 else {
-                    console.log("creating data point "+c.toString())
+                    // console.log("creating data point "+c.toString())
                     $(".imgdata").append(
                         $(
                             "<div id=\"data"+c.toString()+
@@ -273,7 +276,7 @@ b4w.register("io_map", function(exports, require) {
                 var element = "#data"+counter.toString();
                 counter++;
 
-                console.log(element,dat.directory,file);
+                // console.log(element,dat.directory,file);
                 try {
                     $(element+"d").show();
                     $(element).attr("src",dat.directory+file);
@@ -287,7 +290,7 @@ b4w.register("io_map", function(exports, require) {
                         var hourIndex = parseInt(regTs[1])+1;
                     }
 
-                    console.log(hourIndex, counter)
+                    // console.log(hourIndex, counter)
 
                     // var values = {
                     //     ob_lon:parseFloat(dat.location[hourIndex].split(",")[8]),
@@ -341,7 +344,7 @@ b4w.register("io_map", function(exports, require) {
                 console.log(paths,values);
             }
 
-            console.log(dat.directory+paths[1]);
+            // console.log(dat.directory+paths[1]);
 
             m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
             m_transform.set_translation(_shell,0,0,0);

@@ -127,13 +127,14 @@ io.sockets.on('connection', function (socket) {
                 var DiM = 0;
                 if (month == 2) { if (parseInt(year)%4 != 0) {DiM = 28;} else {DiM=29;} }
                 else if (month == 4 || month == 6 || month == 9 || month == 11) {DiM = 30;}
-                else /*if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)*/ {DiM = 31;}
+                else {DiM = 31;}
 
                 console.log(month, DiM)
 
                 var Dt = parseInt(day)+1;
+                var dmonth = false;
                 if (Dt > DiM) {
-                    month += 1;
+                    dmonth = true;
                     Dt = 1;
                     if (month > 12) {
                         year += 1;
@@ -152,6 +153,8 @@ io.sockets.on('connection', function (socket) {
 
                 console.log(tstart_UT)
 
+                if(dmonth){month++}
+                
                 var tend_UT =
                 [
                     "'",year,"-",month,"-",Dt,

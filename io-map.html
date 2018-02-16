@@ -3,17 +3,17 @@
 <head>
 
     <title>IoWatch | Blend4Web</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="io-map-layout.css" type="text/css" />
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script type="text/javascript" src="b4w.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <link href="io-map-layout.css" rel="stylesheet" type="text/css" />
+    <script src="/socket.io/socket.io.js" type="text/javascript" ></script>
+    <script src="b4w.min.js" type="text/javascript" ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript" ></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript" ></script>
 
 </head>
 
@@ -25,10 +25,6 @@
             <div class="dattitle">
                 <p class="title">Images gathered by by Imke de Pater and Katherine de Kleer.</p>
             </div>
-            <!-- <div id="data0d" class="datcontainer">
-                <p id="data0p" class="info"></p>
-                <img id="data0" class="dat">
-            </div> -->
         </div>
     </div>
 
@@ -52,7 +48,7 @@
             <a class="text" id="mapType" >View Infrared Maps</a>
         </div>
         <div class="container">
-            <a class="text" id="pickDate" >Date: <input id="datepicker" ></a>
+            <a class="text" id="pickDate" >Date: <input id="datepicker" tabindex="-1" ></a>
         </div>
         <div class="container">
             <a class="text" id="togShell">Show Shell</a>
@@ -78,7 +74,6 @@
             </p>
             <p id="objinfo" class="info"></p>
             <a id="reference" class="title" href="https://planetarynames.wr.usgs.gov/SearchResults?target=IO" target="_blank">Data gathered from planetarynames.wr.usgs.gov</a>
-
         </div>
         <div id="research">
             <a class="title">Research Papers Using This Data</a>
@@ -87,12 +82,11 @@
                 <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2016Icar..280..405D">Spatial distribution of Io's volcanic activity from near-IR adaptive optics observations on 100 nights in 2013-2015:     de Kleer, Katherine; de Pater, Imke</a>
                 <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2017Icar..297..265D">Three decades of Loki Patera observations:  de Pater, Imke; de Kleer, Katherine; Davies, Ashley G.; Ádámkovics, Máté</a>
                 <a class="info" target="_blank" href="http://adsabs.harvard.edu/abs/2017Icar..289..181D">Io's Loki Patera: Modeling of three brightening events in 2013-2016:  de Kleer, Katherine; de Pater, Imke</a>
-
             </p>
         </div>
     </div>
 
-    <script type="text/javascript" src="io-map-scripts.js" ></script>
+    <script src="io-map-scripts.js" type="text/javascript" ></script>
 
 </body>
 </html>

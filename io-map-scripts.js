@@ -13,8 +13,6 @@ b4w.register("io_map", function(exports, require) {
     var m_version = require("version");
     var m_transform = require("transform");
 
-    var DEBUG = (m_version.type() === "DEBUG");
-
     const STATIC_ASSETS_PATH = "blend/";
     const PATH_TO_DEFAULT_MAP = STATIC_ASSETS_PATH + "mband.jpg";
     const PATH_TO_COLOR_MAP = STATIC_ASSETS_PATH + "map-color.jpg";
@@ -70,8 +68,8 @@ b4w.register("io_map", function(exports, require) {
             alpha: true,
             show_fps: false,
             autoresize: true,
-            assets_dds_available: !DEBUG,
-            assets_min50_available: !DEBUG,
+            assets_dds_available: false,
+            assets_min50_available: false,
             console_verbose: true
         });
     }
@@ -221,22 +219,16 @@ b4w.register("io_map", function(exports, require) {
 
         _socket.on('data', function(dat)
         {
-            console.log('data recieved')
-            var xdata = false;
+            var xdata = false; // only set the initial data once!
             var paths = dat.files;
-            // console.log(paths);
             var filters = ['BrA','BrAc','h2o','Kc','Lp','Ms','PAH'];
 
             $(".datcontainer").hide();
 
             for (var c=0; c<paths.length; c++) {
+                // if the requisite div doesn't exist, create it
                 var ele = $("#data"+c.toString()+"d");
-                if (ele.length) {
-                    // ele.hide();
-                    // console.log('element exists: ',ele)
-                }
-                else {
-                    // console.log("creating data point "+c.toString())
+                if (!ele.length) {
                     $(".imgdata").append(
                         $(
                             "<div id=\"data"+c.toString()+
@@ -276,7 +268,6 @@ b4w.register("io_map", function(exports, require) {
                 var element = "#data"+counter.toString();
                 counter++;
 
-                // console.log(element,dat.directory,file);
                 try {
                     $(element+"d").show();
                     $(element).attr("src",dat.directory+file);
@@ -289,14 +280,6 @@ b4w.register("io_map", function(exports, require) {
                     else {
                         var hourIndex = parseInt(regTs[1])+1;
                     }
-
-                    // console.log(hourIndex, counter)
-
-                    // var values = {
-                    //     ob_lon:parseFloat(dat.location[hourIndex].split(",")[8]),
-                    //     ob_lat:parseFloat(dat.location[hourIndex].split(",")[9]),
-                    //     ob_np_ang:parseFloat(dat.location[hourIndex].split(",")[10])
-                    // };
 
                     $(element).attr("ob_lon",parseFloat(dat.location[hourIndex].split(",")[8]));
                     $(element).attr("ob_lat",parseFloat(dat.location[hourIndex].split(",")[9]));
@@ -318,9 +301,6 @@ b4w.register("io_map", function(exports, require) {
 
                 catch(err) {
                     $(element+"d").hide();
-                    if (DEBUG) {
-                        console.log(err);
-                    }
                 }
 
             });
@@ -339,12 +319,6 @@ b4w.register("io_map", function(exports, require) {
                 ob_lat:parseFloat(dat.location[hourIndex].split(",")[9]),
                 ob_np_ang:parseFloat(dat.location[hourIndex].split(",")[10])
             };
-
-            if(DEBUG) {
-                console.log(paths,values);
-            }
-
-            // console.log(dat.directory+paths[1]);
 
             m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
             m_transform.set_translation(_shell,0,0,0);
@@ -432,9 +406,6 @@ b4w.register("io_map", function(exports, require) {
 
                     },
                     error: function(e) {
-                        if (DEBUG) {
-                            console.log(e);
-                        }
                         $("#objinfo").html("");
                     }
                 });
@@ -489,8 +460,7 @@ b4w.register("io_map", function(exports, require) {
         m_transform.set_translation(_shell,421,0,0);
         m_tex.change_image(_jupiter, "jupiter", STATIC_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);
 
-
-        // console.log('moving volcanes!');
+		$(".loading").fadeOut("slow");;
 
     }
 

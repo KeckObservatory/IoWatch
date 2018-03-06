@@ -10,14 +10,11 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
     <link rel="stylesheet" href="io-map-layout.css" type="text/css" />
 
-    <script src="/socket.io/socket.io.js" type="text/javascript" ></script>
-    <script src="b4w.min.js" type="text/javascript" ></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript" ></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript" ></script>
-
 </head>
 
 <body background="blend/stars.jpg">
+
+    <div class="loading"></div>
 
     <div id="sidebar" class="sidenav">
         <!-- <a href="javascript:void(0)" class="showSidebar closebtn" >&times;</a> -->
@@ -60,7 +57,7 @@
             <a class="text" id="togResearch">Show Scientific Papers</a>
         </div>
         <div class="container">
-            <a class="text" id="back" href="">Back to Twilight Zone</a>
+            <a class="text" id="back" href="https://www2.keck.hawaii.edu/inst/tda/TwilightZone.html">Back to Twilight Zone</a>
         </div>
     </div>
 
@@ -85,6 +82,11 @@
             </p>
         </div>
     </div>
+
+    <script src="/socket.io/socket.io.js" type="text/javascript" ></script>
+    <script src="b4w.min.js" type="text/javascript" ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript" ></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript" ></script>
 
     <script src="io-map-scripts.js" type="text/javascript" ></script>
 

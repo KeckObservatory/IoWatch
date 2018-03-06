@@ -1,19 +1,17 @@
 var fs = require('fs');
 var request = require('request');
-const port = process.env.PORT || 8080;
 
-// testing distribution on VM
+const port = process.env.PORT || 8080; // for heroku compilation and local server
 var express = require("express");
 const serv = express()
-.use(express.static(__dirname))
-.get("/", (req,res) => res.sendFile(__dirname+'/io-map.html') )
-.listen(port, () => console.log('Server started on '+port+'!'));
+    .use(express.static(__dirname))
+    .get("/", (req,res) => res.sendFile(__dirname+'/io-map.html') )
+    .listen(port, () => console.log('Server started on '+port+'!'));
 
 var io = require('socket.io')(serv);
 
-const PATH_TO_DATA_MAP = './reduced/Io/';
+const PATH_TO_DATA_MAP = 'reduced/Io/';
 
-// io as in an interface... not the moon... this is a tragedy
 io.sockets.on('connection', function (socket) {
     console.log("Client connected");
     socket.emit('connect');
@@ -23,15 +21,13 @@ io.sockets.on('connection', function (socket) {
     });
 
     socket.on('dates', function(){
-        // console.log('dates');
 
         fs.readdir(PATH_TO_DATA_MAP, (err, files) => {
-            // console.log(files);
+
             var dates = new Set();
             files.forEach(file => {
                 try {
                     var t = file.toString().match(/(\d+)(\D+)(\d+)/);
-                    // console.log(t)
 
                     if (t != null) {
                         // console.log(t)
@@ -54,7 +50,6 @@ io.sockets.on('connection', function (socket) {
                 }
             })
 
-            // console.log(dates)
             socket.emit("dates", Array.from(dates));
 
         });
@@ -62,37 +57,33 @@ io.sockets.on('connection', function (socket) {
 
     socket.on('data', function(_date)
     {
-        console.log(_date);
-
         var date = _date.split("-");
         var month = (['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'])[parseInt(date[1])-1];
         var day = parseInt(date[2].slice(0,2)).toString();
-        if(day.length == 1) {
-            day = "0"+day;
-        }
+        if (day.length == 1) day = "0"+day;
         var year = date[0];
 
         var filepaths = [];
-        regex = /\_(?:H2O|BrA|Bra|Brac|BrAc|h2o|Kc|Lp|Ms|PAH|pah)\_(\d\d)(\d\d)UT\./;
-        // console.log(regex);
-        var dir = PATH_TO_DATA_MAP+year+month+day+"/";
-        console.log(dir);
 
-        // TO DO: folder name of date
+        var dir = PATH_TO_DATA_MAP+year+month+day+"/";
+
         fs.readdir(dir, (err, files) => {
-            // console.log(files);
 
             files.forEach(F => {
                 var file = F.toString();
-                var fml = file.match(regex);
-                // console.log("iterating", fml);
-                if (fml != null) {
-                    console.log(file);
+
+                // Checking whether image matches format FILTER_hhmmUT
+                var fileAttr = file.match(
+                    /\_(?:BrA|Bra|Brac|BrAc|H2O|h2o|Kc|Lp|Ms|PAH|pah)\_(\d\d)(\d\d)UT\./
+                );
+
+                if (fileAttr != null) {
+                    // console.log(file);
                     filepaths.push(file);
                 }
-                // else {
-                //     console.log(file);
-                // }
+                else {
+                    console.log("File mis-formatted: ", dir, file);
+                }
             })
 
 
@@ -129,8 +120,6 @@ io.sockets.on('connection', function (socket) {
                 else if (month == 4 || month == 6 || month == 9 || month == 11) {DiM = 30;}
                 else {DiM = 31;}
 
-                console.log(month, DiM)
-
                 var Dt = parseInt(day)+1;
                 var dmonth = false;
                 if (Dt > DiM) {
@@ -144,17 +133,13 @@ io.sockets.on('connection', function (socket) {
                 Dt=Dt.toString();
                 if(Dt.length == 1) Dt = "0"+Dt;
 
-                console.log(month,Dt)
-
                 var tstart_UT = ["'",year,"-",
                 month,"-",
                 day," ",
                 "00:00'"].join("");
 
-                console.log(tstart_UT)
-
                 if(dmonth){month++}
-                
+
                 var tend_UT =
                 [
                     "'",year,"-",month,"-",Dt,
@@ -162,58 +147,45 @@ io.sockets.on('connection', function (socket) {
                     "00:00'"
                 ].join("");
 
-                var geturl =   ["http://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1",
-                "&MAKE_EPHEM='YES'&TABLE_TYPE='OBSERVER'",
-                "&COMMAND=", code[ target ],
-                "&CENTER='568'", //568 = mauna kea
-                "&START_TIME=",tstart_UT,
-                "&STOP_TIME=",tend_UT,
-                "&STEP_SIZE='1 hour'",
-                "&QUANTITIES='1,8,13,14,17'",
-                "&CSV_FORMAT='YES'"].join("");
+                var geturl =
+                [
+                    "http://ssd.jpl.nasa.gov/horizons_batch.cgi?batch=1",
+                    "&MAKE_EPHEM='YES'&TABLE_TYPE='OBSERVER'",
+                    "&COMMAND=", code[ target ],
+                    "&CENTER='568'", //568 = mauna kea
+                    "&START_TIME=",tstart_UT,
+                    "&STOP_TIME=",tend_UT,
+                    "&STEP_SIZE='1 hour'", // front-end JS rounds to the nearest hour
+                    "&QUANTITIES='1,8,13,14,17'", //
+                    "&CSV_FORMAT='YES'"
+                ].join("");
 
                 console.log(geturl);
 
                 var ephem = null;
-                // request stuff. just do it once, to save time and whatever.
+                // request data. just do it once, to save time
                 request({uri: geturl,}, function(error, response, body) {
                     try {
                         ephem = body.toString();
-                        // console.log(ephem);
-                        var results = (ephem.match(/\$\$SOE\n\s(.*\,\n){25}\$\$EOE/)[0]).split("\n");
-                        //
-                        // for (var count = 0; count < filepaths.length; count++ ) {
-                        //     var t = filepaths[count].match(/.+_(\d\d)(\d\d)/);
-                        //
-                        //     console.log(t);
-                        //
-                        //     var Min = t[2];
-                        //     if (Min.length == 1){ Min = "0"+Min; }
-                        //     var Hour = (parseInt(t[1])).toString();
-                        //     if (Hour.length == 1){ Hour = "0"+Hour; }
-                        //
-                        //
-                        // }
+                        // 24 sets of position data, one for each hour
+                        var results = ephem.match(/\$\$SOE\n\s(.*\,\n)+\$\$EOE/)[0].split("\n");
 
-                        // if (count === filepaths.length-1) {
-                            // console.log(count)
-                            var data = {
-                                directory: dir,
-                                files: filepaths,// for every file!!!!
-                                location: results
-                            };
+                        var data = {
+                            directory: dir,
+                            files: filepaths,
+                            location: results
+                        };
 
-                            console.log(data);
-                            io.emit('data',data);
-                        // }
+                        io.emit('data',data);
 
                     }
 
                     catch (err) {
-                        console.log("threw error",err);
-                        console.log("url: ",geturl);
+                        console.log(
+                            "JPL request threw error", err,
+                            "\nurl: ", geturl
+                        );
                     }
-
                 });
 
             }

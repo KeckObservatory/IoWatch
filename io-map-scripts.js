@@ -210,6 +210,7 @@ b4w.register("io_map", function(exports, require) {
             $('#datepicker').change(function () {
                 showSidebar();
                 _socket.emit('data',$(this).datepicker("getDate"));
+                $(".loading").show();
                 return false;
             });
 
@@ -302,6 +303,8 @@ b4w.register("io_map", function(exports, require) {
                 catch(err) {
                     $(element+"d").hide();
                 }
+
+                $(".loading").fadeOut("slow");
 
             });
 
@@ -460,7 +463,7 @@ b4w.register("io_map", function(exports, require) {
         m_transform.set_translation(_shell,421,0,0);
         m_tex.change_image(_jupiter, "jupiter", STATIC_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);
 
-		$(".loading").fadeOut("slow");;
+		$(".loading").fadeOut("slow");
 
     }
 

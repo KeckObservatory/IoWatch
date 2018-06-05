@@ -2,6 +2,7 @@
 
 b4w.register("io_map", function(exports, require) {
 
+    // b4w functions
     var m_anchors = require("anchors");
     var m_data    = require("data");
     var m_app     = require("app");
@@ -18,6 +19,7 @@ b4w.register("io_map", function(exports, require) {
     const PATH_TO_COLOR_MAP = STATIC_ASSETS_PATH + "map-color.jpg";
     const APP_ASSETS_PATH = "reduced/Io/"
 
+    // Blender objects that need to be addressed
     var _world = null;
     var _wait_for_image_loading = false;
     var _moon = null;
@@ -26,14 +28,12 @@ b4w.register("io_map", function(exports, require) {
     var _sky = null;
     var _camera = null;
 
-    var shell_active = false;
-    var labels = true;
+    var shell_active = false; // timestamped overlay visible or not
+    var labels = true; // labels for paterae
 
-    var rotquat = [0,0,0,0];
-
-    var heatmap = false;
-    var active = "placeholder";
-    var barinfo = false;
+    var heatmap = false; // IR map or Galileo flyby
+    var active = "placeholder"; // selected patera/volcano name
+    var barinfo = false; // is sidebar research links or data
 
     // socket connection to active node server
     var _socket = io().connect();
@@ -167,7 +167,6 @@ b4w.register("io_map", function(exports, require) {
         m_data.load(STATIC_ASSETS_PATH+"io_model.json", load_cb);
     }
 
-
     function init_network(){
         console.log("init_network");
 
@@ -182,8 +181,6 @@ b4w.register("io_map", function(exports, require) {
         })
 
         _socket.on("dates", function(dates) {
-            // console.log(dates);
-
             $( "#datepicker" ).datepicker({
                 dateFormat: "yy-mm-dd",
                 changeYear: true,
@@ -213,9 +210,7 @@ b4w.register("io_map", function(exports, require) {
                 $(".loading").show();
                 return false;
             });
-
         });
-
 
 
         _socket.on('data', function(dat)
@@ -241,8 +236,6 @@ b4w.register("io_map", function(exports, require) {
                 }
             }
 
-
-
             $(".dat").click(function(){
 
                 deselect();
@@ -253,7 +246,11 @@ b4w.register("io_map", function(exports, require) {
                     ob_np_ang: $(this).attr("ob_np_ang")
                 };
 
-                m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
+                m_transform.set_rotation_euler(_shell,
+                    (90-values.ob_lat)*3.14159/180,
+                    (80+values.ob_np_ang)*3.14159/180,
+                    (90-values.ob_lon)*3.14159/180
+                );
                 m_tex.change_image(_shell, "datamap", $(this).attr("src"), change_img_cb);
 
                 var shadow = "0px 0px 25px rgba(255,255,255,1)";
@@ -272,14 +269,16 @@ b4w.register("io_map", function(exports, require) {
                 try {
                     $(element+"d").show();
                     $(element).attr("src",dat.directory+file);
-                    var regTs = file.match(/_(\d{2})(\d{2})(\w+)/);
-                    $(element+"p").text(file.match(/Io_(.+)_/)[1]+" filter at "+regTs[1]+":"+regTs[2]+" "+regTs[3]);
+                    var regTimestamp = file.match(/_(\d{2})(\d{2})(\w+)/);
+                    $(element+"p").text(file.match(/Io_(.+)_/)[1]+" filter at "+
+                        regTimestamp[1]+":"+regTimestamp[2]+" "+regTimestamp[3]
+                    );
 
-                    if (parseInt(regTs[2]) > 30) {
-                        var hourIndex = parseInt(regTs[1])+2;
+                    if (parseInt(regTimestamp[2]) > 30) {
+                        var hourIndex = parseInt(regTimestamp[1])+2;
                     }
                     else {
-                        var hourIndex = parseInt(regTs[1])+1;
+                        var hourIndex = parseInt(regTimestamp[1])+1;
                     }
 
                     $(element).attr("ob_lon",parseFloat(dat.location[hourIndex].split(",")[8]));
@@ -296,8 +295,6 @@ b4w.register("io_map", function(exports, require) {
 
                         xdata=true;
                     }
-
-
                 }
 
                 catch(err) {
@@ -305,17 +302,13 @@ b4w.register("io_map", function(exports, require) {
                 }
 
                 $(".loading").fadeOut("slow");
-
             });
 
-            var regTs = paths[0].match(/_(\d{2})(\d{2})(\w+)/);
+            var regTimestamp = paths[0].match(/_(\d{2})(\d{2})(\w+)/);
 
-            if (parseInt(regTs[2]) > 30) {
-                var hourIndex = parseInt(regTs[1])+2;
-            }
-            else {
-                var hourIndex = parseInt(regTs[1])+1;
-            }
+            var hourIndex;
+            if (parseInt(regTimestamp[2]) > 30) hourIndex = parseInt(regTimestamp[1])+2;
+            else hourIndex = parseInt(regTimestamp[1])+1;
 
             var values = {
                 ob_lon:parseFloat(dat.location[hourIndex].split(",")[8]),
@@ -323,14 +316,22 @@ b4w.register("io_map", function(exports, require) {
                 ob_np_ang:parseFloat(dat.location[hourIndex].split(",")[10])
             };
 
-            m_transform.set_rotation_euler(_shell,(90-values.ob_lat)*3.14159/180,(80+values.ob_np_ang)*3.14159/180,(90-values.ob_lon)*3.14159/180);
+            m_transform.set_rotation_euler(_shell,
+                (90-values.ob_lat)*3.14159/180,
+                (80+values.ob_np_ang)*3.14159/180,
+                (90-values.ob_lon)*3.14159/180
+            );
             m_transform.set_translation(_shell,0,0,0);
             m_tex.change_image(_shell, "datamap", dat.directory+paths[0], change_img_cb);
 
             shell_active = true;
             $("#togShell").text("Hide Shell");
 
-            m_transform.set_translation(_camera, 10*Math.cos(values.ob_lon*3.14/180), -10*Math.sin(values.ob_lon*3.14/180), 0)
+            m_transform.set_translation(_camera,
+                10*Math.cos(values.ob_lon*3.14/180),
+                -10*Math.sin(values.ob_lon*3.14/180),
+                0
+            );
         });
 
         $("#togShell").click(function() {
@@ -342,7 +343,6 @@ b4w.register("io_map", function(exports, require) {
             }
 
             else {
-                // m_transform.set_translation(_shell,0,0,0);
                 var date = $("#datepicker").datepicker("getDate");
                 if (date != null) {
                     _socket.emit('data',date)
@@ -396,7 +396,12 @@ b4w.register("io_map", function(exports, require) {
                             return $(this).find("name").text() == active;
                         }).each(function() {
                             // console.log(this);
-                            if ($(this).find("diameter").text() != "0") { var Di = "Diameter: "+$(this).find("diameter").text()+" km<br>"; } else { var Di = ""; }
+                            var Di;
+                            if ($(this).find("diameter").text() != "0") {
+                                Di = "Diameter: "+$(this).find("diameter").text()+" km<br>";
+                            }
+                            else Di = "";
+
                             var insertdata = [
                                 Di,
                                 "Central Latitude: ", $(this).find("centerlatitude").text(), "˚N<br>",
@@ -420,7 +425,6 @@ b4w.register("io_map", function(exports, require) {
                 active = "";
             }
         });
-
     }
 
     function deselect() {
@@ -452,19 +456,22 @@ b4w.register("io_map", function(exports, require) {
         m_app.enable_camera_controls();
         init_network();  // sets up socket.io communication
         _socket.emit("dates"); // get selectable dates
+
         var container = m_cont.get_canvas();
+
         _world = m_scenes.get_world_by_name("World");
         _moon = m_scenes.get_object_by_name("Io"); // Io
         _shell = m_scenes.get_object_by_name("Shell"); // Data shell
         _jupiter = m_scenes.get_object_by_name("Jupiter");
-        _camera = m_scenes.get_object_by_name("Camera")
+        _camera = m_scenes.get_object_by_name("Camera");
+
         $("#mapType").click(main_maptype_clicked_cb);
+
         m_tex.change_image(_moon, "map", PATH_TO_COLOR_MAP, change_img_cb);
         m_transform.set_translation(_shell,421,0,0);
         m_tex.change_image(_jupiter, "jupiter", STATIC_ASSETS_PATH+"jupiter-cylindrical-map-created-with-cassini-data.jpg", change_img_cb);
 
 		$(".loading").fadeOut("slow");
-
     }
 
     function change_img_cb() {
@@ -472,7 +479,6 @@ b4w.register("io_map", function(exports, require) {
     }
 
     function main_maptype_clicked_cb() {
-
         if (heatmap) {
             m_tex.change_image(_moon, "map", PATH_TO_COLOR_MAP, change_img_cb);
             heatmap = false;
